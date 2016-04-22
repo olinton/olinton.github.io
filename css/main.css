@@ -3,12 +3,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000000;
 }
 
 li {
     float: left;
-    border-right:1px solid #bbb;
+    border-right:1px solid #FFB612;
 }
 
 li:last-child {
