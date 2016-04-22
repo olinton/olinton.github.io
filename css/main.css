@@ -52,10 +52,15 @@
     position: relative;
     float: left;
     height: 30px;
-    width: 200px;
-    background: #999999;
+    width: 16vw;
+    background: #000000;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { 
+	background: #CCCCCC;
+	border-width: 5px;
+	border-bottom: #FFB612;
+	border-top: #FFB612;
+}
 
 .top-level-menu li:hover > ul
 {
