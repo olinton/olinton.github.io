@@ -14,7 +14,7 @@
 
 .third-level-menu > li
 {
-    height: 30px;
+    height: 5vw;
     background: #999999;
 }
 .third-level-menu > li:hover { background: #CCCCCC; }
@@ -22,7 +22,7 @@
 .second-level-menu
 {
     position: absolute;
-    top: 30px;
+    top: 5vw;
     left: 0;
     width: 16vw;
     list-style: none;
@@ -34,7 +34,7 @@
 .second-level-menu > li
 {
     position: relative;
-    height: 30px;
+    height: 5vw;
     background: #999999;
 }
 .second-level-menu > li:hover { background: #CCCCCC; }
@@ -51,7 +51,7 @@
 	min-width: 16vw;
     position: relative;
     float: left;
-    height: 30px;
+    height: 5vw;
     width: 16vw;
     background: #000000;
 }
@@ -71,14 +71,14 @@
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
 	min-width: 100%;
-    font: bold 14px Arial, Helvetica, sans-serif;
+    font: bold 4vw Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     text-decoration: none;
     padding: 0 0 0 10px;
 
     /* Make the link cover the entire list item-container */
     display: block;
-    line-height: 30px;
+    line-height: 5vw;
 }
 .top-level-menu a:hover { 
 	color: #000000; 
