@@ -14,7 +14,7 @@
 
 .third-level-menu > li
 {
-    height: 30px;
+ /*   height: 30px;*/
     background: #999999;
 }
 .third-level-menu > li:hover { background: #CCCCCC; }
@@ -50,7 +50,7 @@
 {
     position: relative;
     float: left;
-    height: 30px;
+  /*  height: 30px;*/
     width: 150px;
     background: #999999;
 }
@@ -74,6 +74,6 @@
 
     /* Make the link cover the entire list item-container */
     display: block;
-    line-height: 30px;
+ /*   line-height: 30px;*/
 }
 .top-level-menu a:hover { color: #000000; }
