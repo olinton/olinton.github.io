@@ -9,7 +9,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 /* Menu General Styles */
 .menuBackground {
-	background: #08A3DB;
+	background: #FFB612;
 	text-align: left; /* or change the value to left to align left*/
 }
 .dropDownMenu a {
@@ -53,7 +53,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	text-align: left;
 	width: auto; /* change auto value with 200px if you want a bigger menu */
 	display: none;
-	background: #5DBB04;
+	background: #ffc441;
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -71,7 +71,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .dropDownMenu > li > ul > li > ul {
 	text-align: left;
 	display: none;
-	background: #E7B400;
+	background: #e5a310;
 	position: absolute;
 	left: 100%;
 	top: 0;
