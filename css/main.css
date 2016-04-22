@@ -4,8 +4,8 @@
 {
     position: absolute;
     top: 0;
-    right: -150px;
-    width: 150px;
+    right: -300px;
+    width: 300px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -14,7 +14,7 @@
 
 .third-level-menu > li
 {
- /*   height: 30px;*/
+    height: 60px;
     background: #999999;
 }
 .third-level-menu > li:hover { background: #CCCCCC; }
@@ -22,9 +22,9 @@
 .second-level-menu
 {
     position: absolute;
-    top: 30px;
+    top: 60px;
     left: 0;
-    width: 150px;
+    width: 300px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -34,7 +34,7 @@
 .second-level-menu > li
 {
     position: relative;
-    height: 30px;
+    height: 60px;
     background: #999999;
 }
 .second-level-menu > li:hover { background: #CCCCCC; }
@@ -51,7 +51,7 @@
     position: relative;
     float: left;
   /*  height: 30px;*/
-    width: 150px;
+    width: 300px;
     background: #999999;
 }
 .top-level-menu > li:hover { background: #CCCCCC; }
