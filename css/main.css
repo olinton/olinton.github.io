@@ -80,7 +80,7 @@
 
     /* Make the link cover the entire list item-container */
     display: block;
-    line-height: 30px;
+ /*   line-height: 30px;*/
 }
 .top-level-menu a:hover { 
 	color: #000000; 
