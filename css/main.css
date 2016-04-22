@@ -51,13 +51,13 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 /* Level 2 */
 .dropDownMenu > li > ul {
 	text-align: left;
-	width: auto; /* change auto value with 200px if you want a bigger menu */
+	width: 200px
 	display: none;
 	background: #5DBB04;
 	position: absolute;
 	top: 100%;
 	left: 0;
-	z-index: 9999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
+	z-index: 9999999;
 }
 .dropDownMenu > li:hover > ul {
 	display: block;
