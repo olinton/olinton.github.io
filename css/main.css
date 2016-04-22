@@ -81,8 +81,5 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { 
-	color: #000000; 
-	border-width: 5px;
-	border-bottom: #FFB612;
-	border-top: #FFB612;
+	color: #FFB612;
 }
