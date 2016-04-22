@@ -48,6 +48,7 @@
 
 .top-level-menu > li
 {
+	min-width: (100/6)vw;
     position: relative;
     float: left;
     height: 30px;
