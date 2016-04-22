@@ -53,8 +53,8 @@
 	min-width: 16vw;
     position: relative;
     float: left;
- /*   height: 30px;
-    width: 16vw;*/
+	height: 30px;
+    width: 16vw;
     background: #000000;
 }
 .top-level-menu > li:hover { 
@@ -80,7 +80,7 @@
 
     /* Make the link cover the entire list item-container */
     display: block;
-    /*line-height: 30px;*/
+    line-height: 30px;
 }
 .top-level-menu a:hover { 
 	color: #000000; 
