@@ -1,51 +1,79 @@
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: #1bc2a2;
+/* Menu Styles */
+
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
 }
 
-ul li {
-  display: block;
-  position: relative;
-  float: left;
-  background: #1bc2a2;
+.third-level-menu > li
+{
+    height: 30px;
+    background: #999999;
+}
+.third-level-menu > li:hover { background: #CCCCCC; }
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
 }
 
-li ul { display: none; }
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
 
-ul li a {
-  display: block;
-  padding: 1em;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #fff;
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-ul li a:hover { background: #2c3e50; }
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 150px;
+    background: #999999;
+}
+.top-level-menu > li:hover { background: #CCCCCC; }
 
-li:hover > ul {
-  display: block;
-  position: absolute;
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
 }
 
-li:hover li { float: none; }
 
-li:hover a { background: #1bc2a2; }
+/* Menu Link Styles */
 
-li:hover li a:hover { background: #2c3e50; }
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
 
-.main-navigation li ul li { border-top: 0; }
-
-ul ul ul {
-  left: 100%;
-  top: 0;
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
 }
-
-ul:before,
-ul:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-
-ul:after { clear: both; }
+.top-level-menu a:hover { color: #000000; }
