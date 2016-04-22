@@ -51,7 +51,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 /* Level 2 */
 .dropDownMenu > li > ul {
 	text-align: left;
-	width: 200px
+	width: auto; /* change auto value with 200px if you want a bigger menu */
 	display: none;
 	background: #5DBB04;
 	position: absolute;
