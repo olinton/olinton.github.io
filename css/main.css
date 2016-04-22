@@ -56,7 +56,7 @@
     background: #000000;
 }
 .top-level-menu > li:hover { 
-	background: #CCCCCC;
+	background: #FFB612;
 }
 
 .top-level-menu li:hover > ul
@@ -81,5 +81,5 @@
     line-height: 30px;
 }
 .top-level-menu a:hover { 
-	color: #FFB612;
+	color: #000000; 
 }
