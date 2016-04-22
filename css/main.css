@@ -82,7 +82,5 @@
 }
 .top-level-menu a:hover { 
 	color: #000000; 
-	border-width: 5px;
-	border-bottom: #FFB612;
-	border-top: #FFB612;
+    background-color: #FFFFFF;
 }
