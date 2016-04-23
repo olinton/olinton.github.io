@@ -31,6 +31,10 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	padding: 10px 20px;
 	display: block;
 	text-decoration: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #FFB612;
+	border-size: 5px;
 }
 .dropDownMenu a:hover {
 	background: #000;
@@ -38,7 +42,6 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border-bottom-style: solid;
 	border-color: red;
 	border-size: 5px;
-    box-sizing: border-box;
 }
 
 
