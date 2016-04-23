@@ -37,7 +37,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border-size: 5px;
 }
 .dropDownMenu a:hover {
-	background: #000;
+	background: white;
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
 	border-color: #ffb612;/*red;*/
@@ -57,7 +57,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .dropDownMenu > li > a {}
 .dropDownMenu > li > a:hover {
 /*	border: none;*/
-	color: white;
+	color: #FFB612;
 }
 
 
