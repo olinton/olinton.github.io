@@ -22,7 +22,8 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	padding: 0;
 	font-weight: bold;
 	font-family: Arial, sans-serif; 
-	font-size: 2vw;/*22px;*/
+	font-size: 22px;
+	position: fixed;
 }
 .dropDownMenu li {
 	position: relative;
