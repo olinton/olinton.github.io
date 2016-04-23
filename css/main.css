@@ -78,7 +78,10 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .dropDownMenu > li:hover > ul {
 	display: block;
 }
-.dropDownMenu ul li a {}
+.dropDownMenu ul li a {	
+	border-color: #FFB612;
+	border-size: 3px;
+}
 .dropDownMenu ul li a:hover {
 	border: none;
 	}
@@ -103,5 +106,8 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border: none;
 }
 .dropDownMenu ul ul li {}
-.dropDownMenu ul ul li a {}
+.dropDownMenu ul ul li a {
+	border-color: red;
+	border-size: 3px;
+}
 .dropDownMenu ul ul li a:hover {}
