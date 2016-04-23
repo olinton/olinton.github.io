@@ -1,6 +1,6 @@
 body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 150%; background: #eee; }
 .headerContainerWrapper { background: #FFF; }
-.center { max-width: 960px; margin: 0 auto; }
+.center { max-width: 100%; margin: 0 auto; }
 .headerContainer, .bodyContainer, .footerContainer { max-width: 960px; margin: 0 auto; background: #FFF; }
 .padding {	padding: 20px; }
 .bodyContainer { min-height: 500px; }
@@ -20,7 +20,8 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif; font-size: 30px;
+	font-family: Arial, sans-serif; 
+	font-size: 22px;
 }
 .dropDownMenu li {
 	position: relative;
