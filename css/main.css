@@ -53,6 +53,9 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 /* Level 2 */
 .dropDownMenu > li > ul {
+	font-weight: none;
+	font-family: Arial, sans-serif; 
+	font-size: 18px;
 	text-align: center;
 	width: auto; /* change auto value with 200px if you want a bigger menu */
 	display: none;
@@ -72,6 +75,9 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 /* Level 3 */
 .dropDownMenu > li > ul > li > ul {
+	font-weight: none;
+	font-family: Arial, sans-serif; 
+	font-size: 18px;
 	text-align: left;
 	display: none;
 	background: #e5a310;
