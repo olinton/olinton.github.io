@@ -9,11 +9,11 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 /* Menu General Styles */
 .menuBackground {
-	background: #FFB612;
+	background: white;/*#FFB612;*/
 	text-align: left; /* or change the value to left to align left*/
 }
 .dropDownMenu a {
-	color: #FFF;
+	color: black;/*#FFF;*/
 }
 .dropDownMenu,
 .dropDownMenu ul {
@@ -33,14 +33,14 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	text-decoration: none;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-color: #FFB612;
+	border-color: white; /*#FFB612;*/
 	border-size: 5px;
 }
 .dropDownMenu a:hover {
 	background: #000;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-color: red;
+	border-color: #ffb612;/*red;*/
 	border-size: 5px;
 }
 
@@ -63,6 +63,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 /* Level 2 */
 .dropDownMenu > li > ul {
+	color: black;
 	font-weight: none;
 	font-family: Arial, sans-serif; 
 	font-size: 18px;
@@ -79,12 +80,20 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	display: block;
 }
 .dropDownMenu ul li a {	
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
 	border-color: #FFB612;
 	border-size: 1px;
 }
 .dropDownMenu ul li a:hover {
-	border-color: blue;
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #FFB612;
 	border-size: 1px;
+	color: black;
+	background-color: white;
 }
 
 
@@ -108,12 +117,18 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 }
 .dropDownMenu ul ul li {}
 .dropDownMenu ul ul li a {
-	border-style: solid;
-	border-color: black;
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #FFB612;
 	border-size: 1px;
 }
 .dropDownMenu ul ul li a:hover {
-	border-style: solid;
-	border-color: gray;
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #FFB612;
 	border-size: 1px;
+	color: black;
+	background-color: white;
 }
