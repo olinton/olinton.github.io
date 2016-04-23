@@ -34,14 +34,14 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
 	border-color: white; /*#FFB612;*/
-	border-size: 5px;
+	border-size: 10px;
 }
 .dropDownMenu a:hover {
 	background: white;
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
 	border-color: #ffb612;/*red;*/
-	border-size: 5px;
+	border-size: 10px;
 }
 
 
