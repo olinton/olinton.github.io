@@ -84,6 +84,8 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 }
 .dropDownMenu ul li a:hover {
 	border: none;
+	border-color: blue;
+	border-size: 1px;
 }
 
 
@@ -111,4 +113,8 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border-color: black;
 	border-size: 1px;
 }
-.dropDownMenu ul ul li a:hover {}
+.dropDownMenu ul ul li a:hover {
+	border-style: solid;
+	border-color: gray;
+	border-size: 1px;
+}
