@@ -87,10 +87,26 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border-color: #FFB612;
 	border-size: 1px;
 }
+.dropDownMenu ul li:last-child a {	
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #FFB612;
+	border-size: 1px;
+}
 .dropDownMenu ul li a:hover {
 	border: none;
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
+	border-color: #FFB612;
+	border-size: 1px;
+	color: black;
+	background-color: white;
+}
+.dropDownMenu ul li:last-child a:hover {
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
 	border-color: #FFB612;
 	border-size: 1px;
 	color: black;
@@ -124,10 +140,26 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border-color: #FFB612;
 	border-size: 1px;
 }
+.dropDownMenu ul ul li:last-child a {
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #FFB612;
+	border-size: 1px;
+}
 .dropDownMenu ul ul li a:hover {
 	border: none;
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
+	border-color: #FFB612;
+	border-size: 1px;
+	color: black;
+	background-color: white;
+}
+.dropDownMenu ul ul li:last-child a:hover {
+	border: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
 	border-color: #FFB612;
 	border-size: 1px;
 	color: black;
