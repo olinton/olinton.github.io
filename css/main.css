@@ -81,7 +81,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 /* Menu General Styles */
 .menuBackground {
-	background-color: rgba(255,255,255,0.9); /*background: white;/*#FFB612;*
+	background-color: rgba(255,255,255,0.95); /*background: white;/*#FFB612;*
 	text-align: left; /* or change the value to left to align left*
 	position: fixed;
 	left: 0px;
@@ -101,7 +101,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	position: fixed;
 	left: 0px;
 	top: 0px;
-	background-color: rgba(255,255,255,0.9); /*background: white;*/
+	background-color: rgba(255,255,255,0.95); /*background: white;*/
 	width: 100%;	
 }
 .dropDownMenu li {
