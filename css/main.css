@@ -4,36 +4,14 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .headerContainer, .bodyContainer, .footerContainer { max-width: 960px; margin: 0 auto; background: #FFF; }
 .padding {	padding: 20px; }
 .bodyContainer { min-height: 500px; }
-
-body {
- background: url('dark_geometric.png');
-}
  
 #container {
  width: 1000px;
  overflow: hidden;
  margin: 50px auto;
- background: white;
+ background: gray;
 }
-/*header*/
-header {
- width: 800px;
- margin: 40px auto;
-}
- 
-header h1 {
- text-align: center;
- font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
- 
-}
- 
-header p {
- font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
- text-align: justify;
-}
- 
 /*photobanner*/
- 
 .photobanner {
  height: 233px;
  width: 3550px;
