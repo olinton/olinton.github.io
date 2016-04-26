@@ -6,7 +6,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .bodyContainer { min-height: 500px; }
  
 #container {
- width: 1000px;
+ width: 100%;/*1000px;*/
  overflow: hidden;
  margin: 50px auto;
  background: gray;
@@ -15,7 +15,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .photobanner {
  height: 233px;
  width: 3550px;
- margin-bottom: 80px;
+ margin-bottom: 20px;
 }
 
 /*keyframe animations*/
