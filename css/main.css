@@ -21,11 +21,11 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 /*keyframe animations*/
 .first {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+ -webkit-animation: bannermove 10s linear infinite;
+    -moz-animation: bannermove 10s linear infinite;
+     -ms-animation: bannermove 10s linear infinite;
+      -o-animation: bannermove 10s linear infinite;
+         animation: bannermove 10s linear infinite;
 }
  
 @keyframes "bannermove" {
