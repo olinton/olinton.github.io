@@ -151,7 +151,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	font-family: Arial, sans-serif; 
 	font-size: 18px;
 	text-align: center;
-	width: auto; /* change auto value with 200px if you want a bigger menu */
+	width: 100%; /*auto; /* change auto value with 200px if you want a bigger menu */
 	display: none;
 	background: #ffc441;
 	position: absolute;
