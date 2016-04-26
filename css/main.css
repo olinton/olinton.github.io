@@ -80,13 +80,13 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 
 /* Menu General Styles */
-/*.menuBackground {
-	background-color: rgba(255,255,255,0.5); /*background: white;/*#FFB612;*
+.menuBackground {
+	background-color: rgba(255,255,255,0.9); /*background: white;/*#FFB612;*
 	text-align: left; /* or change the value to left to align left*
 	position: fixed;
 	left: 0px;
 	top: 0px;
-}*/
+}
 .dropDownMenu a {
 	color: black;/*#FFF;*/
 }
@@ -101,7 +101,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	position: fixed;
 	left: 0px;
 	top: 0px;
-	background-color: rgba(255,255,255,0.5); /*background: white;*/
+	background-color: rgba(255,255,255,0.9); /*background: white;*/
 	width: 100%;	
 }
 .dropDownMenu li {
