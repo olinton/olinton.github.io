@@ -91,7 +91,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	background: white;/*#FFB612;*/
 	text-align: left; /* or change the value to left to align left*/
 	position: relative;
-	height: 62px;
+	height: 5.8vw;
 	width: 100%;/*
 	left: 0px;
 	top: 0px;*/
@@ -117,20 +117,20 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	position: relative;
 }
 .dropDownMenu a {
-	padding: 20px 25px;
+	padding: 1.9vw 2.1 vw; /*20px 25px;*/
 	display: block;
 	text-decoration: none;
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
 	border-color: white; /*#FFB612;*/
-	border-size: 20px;
+	border-size: 1.9vw; /*20px;*/
 }
 .dropDownMenu a:hover {
 	background: white;
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
 	border-color: #ffb612;/*red;*/
-	border-size: 20px;
+	border-size: 1.9vw; /*20px;*/
 }
 
 
@@ -156,7 +156,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	color: black;
 	font-weight: none;
 	font-family: Arial, sans-serif; 
-	font-size: 18px;
+	font-size: 1.7vw; /*18px;*/
 	text-align: center;
 	width: 100%; /*auto; /* change auto value with 200px if you want a bigger menu */
 	display: none;
@@ -175,7 +175,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 /*	border-bottom-style: solid;*/
 	border-color: #FFB612;
 	border-size: 1px;
-	padding: 10px 10px;
+	padding: .95vw .95vw; /*10px 10px;*/
 }
 .dropDownMenu ul li:last-child a {	
 	border: none;
@@ -209,7 +209,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .dropDownMenu > li > ul > li > ul {
 	font-weight: none;
 	font-family: Arial, sans-serif; 
-	font-size: 18px;
+	font-size: 1.8vw; /*18px;*/;
 	text-align: left;
 	display: none;
 	background: #e5a310;
