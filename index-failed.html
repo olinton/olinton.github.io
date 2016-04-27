@@ -6,13 +6,14 @@
     <meta name = "author" content = "Owen Linton (for now)">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <link rel = "shortcut icon" type = "image/x-icon" href = "images/favicon.ico">
-	<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+	<link rel = "stylesheet" type = "text/css" href = "/css/main.css">
+	<link href="/flexnav-master/css/flexnav.css" rel="stylesheet" type="text/css" / >
 </head>
 <body>
-
+<div class="menu-button">Menu</div>
 <div class="menuBackground">
 	<div class="center">
-		<ul class="dropDownMenu">
+		<ul class="flexnav" data-breakpoint="800">
 			<li><a href="/index.html" title="About">About</a></li>
 			<li><a href="/ResearchCapabilities.html" title="ResearchCapabilities">Research Capabilities</a>
 				<ul>
@@ -105,6 +106,10 @@
 	</div>
 </div>
 
+<script>
+    $(".flexnav").flexNav();
+</script>
 
+<script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
 </body>
 </html>
