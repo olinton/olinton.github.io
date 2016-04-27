@@ -86,7 +86,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 
 /* Menu General Styles */
-@media screen and (min-width: 760px){
+@media screen and (min-width: 660px){
 .menuBackground {
 	background: white;/*#FFB612;*/
 	text-align: left; /* or change the value to left to align left*/
@@ -106,7 +106,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	padding: 0;
 	font-weight: normal;
 	font-family: Arial, sans-serif; 
-	font-size: 22px;
+	font-size: 2vw; /*22px;*/
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -258,7 +258,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 }
 
 
-@media screen and (max-width : 760px){
+@media screen and (max-width : 660px){
 .menuBackground {
 	background: white;/*#FFB612;*/
 	text-align: center; /* or change the value to left to align left*/
