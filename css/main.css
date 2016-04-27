@@ -117,7 +117,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	position: relative;
 }
 .dropDownMenu a {
-	padding: 1.9vw 2.1 vw; /*20px 25px;*/
+	padding: 1.9vw 2.1vw; /*20px 25px;*/
 	display: block;
 	text-decoration: none;
 	border-top-style: solid;
