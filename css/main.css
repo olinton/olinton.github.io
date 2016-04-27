@@ -94,6 +94,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	left: 0px;
 	top: 0px;*/
 }
+@media screen and (min-width: 720px){
 .dropDownMenu a {
 	color: black;/*#FFF;*/
 }
@@ -252,6 +253,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	border-size: 1px;
 	color: black;
 	background-color: white;
+}
 }
 
 
