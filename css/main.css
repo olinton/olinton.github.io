@@ -83,7 +83,15 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
  
 .photobanner img:hover {
 }
-
+.menuBackground{
+	background: white;/*#FFB612;*/
+	text-align: left; /* or change the value to left to align left*/
+	position: relative;
+	height: 5.8vw;
+	width: 100%;/*
+	left: 0px;
+	top: 0px;*/
+}
 
 nav {
   margin: 0;
