@@ -253,3 +253,20 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	color: black;
 	background-color: white;
 }
+
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	.dropDownMenu ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	.dropDownMenu li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	.dropDownMenu ul li, .dropDownMenu li a {
+		width: 100%;
+	}
+}
