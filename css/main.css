@@ -261,10 +261,11 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 @media screen and (max-width : 760px){
 .menuBackground {
 	background: white;/*#FFB612;*/
-	text-align: left; /* or change the value to left to align left*/
+	text-align: center; /* or change the value to left to align left*/
 	position: relative;
 	height: 62px;
-	width: 100%;/*
+	width: 100%;
+	min-width: 100%;/*
 	left: 0px;
 	top: 0px;*/
 }
@@ -282,6 +283,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	position: relative;
 	background-color: rgba(255,255,255,0.9); /*background: white;*/
 	width: 100%;	
+	min-width: 100%;
 }
 .dropDownMenu li {
 	position: relative;
