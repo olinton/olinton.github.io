@@ -85,6 +85,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 
 /* Menu General Styles */
+@media screen and (min-width: 760px){
 .menuBackground {
 	background: white;/*#FFB612;*/
 	text-align: left; /* or change the value to left to align left*/
@@ -94,7 +95,6 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	left: 0px;
 	top: 0px;*/
 }
-@media screen and (min-width: 760px){
 .dropDownMenu a {
 	color: black;/*#FFF;*/
 }
@@ -258,29 +258,45 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 
 
 @media screen and (max-width : 760px){
-	/*Make dropdown links appear inline*/
-	.dropDownMenu ul {
-		position: static;
-		display: none;
-		color: black;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		font-weight: normal;
-		font-family: Arial, sans-serif; 
-		font-size: 22px;
-		background-color: rgba(255,255,255,0.9); /*background: white;*/
-		width: 100%;
-	}
-	/*Create vertical spacing*/
-	.dropDownMenu li {
-		margin-bottom: 1px;
-	}
-	/*Make all menu links full width*/
-	.dropDownMenu ul li, .dropDownMenu li a {
-		width: 100%;
-	}
-	.dropDownMenu a:hover {
+.menuBackground {
+	background: white;/*#FFB612;*/
+	text-align: left; /* or change the value to left to align left*/
+	position: relative;
+	height: 62px;
+	width: 100%;/*
+	left: 0px;
+	top: 0px;*/
+}
+.dropDownMenu a {
+	color: black;/*#FFF;*/
+}
+.dropDownMenu,
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-family: Arial, sans-serif; 
+	font-size: 22px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(255,255,255,0.9); /*background: white;*/
+	width: 100%;	
+}
+.dropDownMenu li {
+	position: relative;
+}
+.dropDownMenu a {
+	padding: 20px 25px;
+	display: block;
+	text-decoration: none;
+	border-top-style: solid;
+/*	border-bottom-style: solid;*/
+	border-color: white; /*#FFB612;*/
+	border-size: 20px;
+}
+.dropDownMenu a:hover {
 	background: white;
 	border-top-style: solid;
 /*	border-bottom-style: solid;*/
