@@ -156,6 +156,13 @@ nav ul ul ul li {
 
 li > a:after { content: ' +'; }
 
+.toggle, [id^=drop] {
+ display: none;
+}
+
+li > a:only-child:after { content: ''; }
+
+
 @media all and (max-width : 768px) {
 
 #logo {
