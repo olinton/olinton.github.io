@@ -101,13 +101,13 @@ nav {
     height:60px;
 	position: static;
 }
-/*
+
 nav:after {
   content: "";
   display: table;
   clear: both;
 }
-*/
+
 nav ul {
   float: left;
   padding: 0;
