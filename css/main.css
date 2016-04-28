@@ -245,8 +245,9 @@ nav ul ul .toggle,
 
 nav ul ul ul a { padding: 0 80px; }
 
-nav a:hover,
- nav ul ul ul a { background-color: #000000; }
+nav a:hover { background-color: #000000; }
+nav ul ul ul a { background-color: #FFcb59; }
+nav ul ul ul a:hover { color: white; }
 
 nav ul li ul li .toggle,
  nav ul ul a { background-color: #FFB612; }
