@@ -87,7 +87,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	background-color: rgba(255,255,255,0.9); /*background-color: white; /*#254441;*/
 	text-align: left; /* or change the value to left to align left*/
 	position: fixed;
-	height: 60px;
+	height: 70px;
 	width: 100%;/*
 	left: 0px;
 	top: 0px;*/
@@ -96,7 +96,10 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 nav {
   margin: 0;
   padding: 0;
-  background-color: rgba(255,255,255,0.9); /*background-color: white; /*#254441;*/
+  background-color: rgba(255,255,255, 0);/*0.9); /*background-color: white; /*#254441;*/
+  border-top-style: solid;
+  border-top-color: rgba(255,255,255, 0);
+  border-top-width: 10px;
   width: 100vw;
 }
 
@@ -131,13 +134,19 @@ nav a {
 }
 
 nav ul li ul li:hover { 
-	background: #000000; 
+	background: white; /*#000000; */
 	color: #FFB612;
+	border-top-style: solid;
+	border-top-color: #FFB612;
+	border-top-width: 10px;
 }
 
 nav a:hover { 
-	background-color: #000000; 
+	background-color: white; /*#000000; */
 	color: #FFB612;
+	border-top-style: solid;
+	border-top-color: #FFB612;
+	border-top-width: 10px;
 }
 
 nav ul ul {
