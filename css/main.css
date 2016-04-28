@@ -133,10 +133,10 @@ nav a {
   font-size: 20px;
   line-height: 60px;
   text-decoration: none;
-	border-top-style: solid;
+  border-top-style: solid;
 	border-top-color: white;
 	border-top-width: 10px;
-	width: 100%;
+	min-width: 100%;
 }
 
 nav ul li ul li:hover { 
