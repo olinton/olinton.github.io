@@ -238,10 +238,10 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	
 }
 @media all and (max-width : 768px) {
-/*
 li > a:after { content: ' +'; }
+li > a:after { content: ' -'; }
 
-li > a:only-child:after { content: ''; }*/
+li > a:only-child:after { content: ''; }
 
 #logo {
   display: block;
