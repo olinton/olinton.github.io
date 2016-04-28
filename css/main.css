@@ -141,9 +141,9 @@ nav a {
 nav ul li ul li:hover { 
 	background: white; /*#000000; */
 	color: #FFB612;
-	border-top-style: solid;
+/*	border-top-style: solid;
 	border-top-color: #FFB612;
-	border-top-width: 10px;
+	border-top-width: 10px;*/
 }
 
 nav a:hover { 
