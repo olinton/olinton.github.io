@@ -277,12 +277,3 @@ nav ul ul ul li { position: static;
 
 }
 }
-
-@media all and (max-width : 330px) {
-
-nav ul li {
-  display: block;
-  width: 94%;
-}
-
-}
