@@ -212,7 +212,10 @@ li > a:only-child:after { content: ''; }
   float: none;
 }
 
-nav { margin: 0; }
+nav { 
+	margin: 0;
+	position: static;
+ }
 
 .toggle + a,
  .menu { display: none; }
@@ -226,6 +229,7 @@ nav { margin: 0; }
   line-height: 60px;
   text-decoration: none;
   border: none;
+  position: static;
 }
 
 .toggle:hover { 
