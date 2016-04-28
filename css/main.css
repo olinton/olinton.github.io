@@ -213,6 +213,10 @@ nav a:hover{
 	border-color: green;
 	border-size: 20px;
 }
+nav ul ul li{
+	font-size: 15px;
+	padding: 0 5px;
+}
 	
 }
 @media all and (max-width : 768px) {
