@@ -200,7 +200,20 @@ li > a:after { content: ' +'; }
 
 li > a:only-child:after { content: ''; }
 
+@medial all and (min-width : 768px) {
 
+nav a{
+	border-top-style: solid;
+	border-color: red;
+	border-size: 10px;
+}
+nav a:hover{
+	border-top-style: solid;
+	border-color: green;
+	border-size: 10px;
+}
+	
+}
 @media all and (max-width : 768px) {
 
 #logo {
