@@ -125,6 +125,15 @@ nav ul li {
   float: left;
   position: relative;
   background-color: white; /*#254441;*/
+  border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 10px;
+}
+
+nav ul li:hover{
+	border-top-style: solid;
+	border-top-color: #FFB612;
+	border-top-width: 10px;
 }
 
 nav a {
@@ -134,9 +143,6 @@ nav a {
   font-size: 20px;
   line-height: 60px;
   text-decoration: none;
-  border-top-style: solid;
-	border-top-color: white;
-	border-top-width: 10px;
 	min-width: 100%;
 }
 
@@ -151,9 +157,6 @@ nav ul li ul li:hover {
 nav a:hover { 
 	background-color: white; /*#000000; */
 	color: #FFB612;
-	border-top-style: solid;
-	border-top-color: #FFB612;
-	border-top-width: 10px;
 }
 
 nav ul ul {
