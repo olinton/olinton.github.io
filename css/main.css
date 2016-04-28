@@ -214,7 +214,8 @@ nav a:hover{
 	border-size: 20px;
 }
 nav ul ul li a, nav ul ul ul li a{
-	font-size: 15px;
+	font-size: 18px;
+	padding: 0 4px
 }
 	
 }
