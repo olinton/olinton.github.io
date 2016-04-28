@@ -164,17 +164,24 @@ nav ul ul {
 nav ul li:hover > ul { display: inherit; }
 
 nav ul ul li {
-  width: 170px;
+  width: 100%;/*170px;*/
   float: none;
   display: list-item;
   position: relative;
   background-color: #ffc441;
+  	border-top-style: solid;
+	border-top-color: #ffc441;
+	border-top-width: 4px;
 }
-
+nav ul ul li:hover{
+	border-top-style: solid;
+	border-top-color: black;
+	border-top-width: 4px;
+}
 nav ul ul ul li {
   position: relative;
   top: -70px;
-  left: 170px;
+  left: 100%;
 }
 
 li > a:after { content: ' +'; }
