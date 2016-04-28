@@ -192,14 +192,11 @@ nav ul ul ul li {
   background-color: #e5a310;
 }
 
-li > a:after { content: ' +'; }
-
 
 .toggle, [id^=drop] {
  display: none;
 }
 
-li > a:only-child:after { content: ''; }
 
 @media all and (min-width : 768px) {
 
@@ -242,6 +239,10 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	
 }
 @media all and (max-width : 768px) {
+
+li > a:after { content: ' +'; }
+
+li > a:only-child:after { content: ''; }
 
 #logo {
   display: block;
