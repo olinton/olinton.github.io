@@ -200,7 +200,7 @@ li > a:after { content: ' +'; }
 
 li > a:only-child:after { content: ''; }
 
-@medial all and (min-width : 768px) {
+@media all and (min-width : 768px) {
 
 nav a{
 	border-top-style: solid;
