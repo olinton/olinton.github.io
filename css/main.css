@@ -133,6 +133,9 @@ nav a {
   font-size: 20px;
   line-height: 60px;
   text-decoration: none;
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 10px;
 }
 
 nav ul li ul li:hover { 
