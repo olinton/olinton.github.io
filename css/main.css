@@ -110,6 +110,9 @@ nav:after {
   clear: both;
 }
 */
+nav a{
+	padding-left: 5px;
+}
 nav ul {
   float: left;
   padding: 0;
