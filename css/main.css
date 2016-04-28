@@ -189,6 +189,7 @@ nav ul ul ul li {
   position: relative;
   top: -60px;
   left: 100%;
+  background-color: #e5a310;
 }
 
 li > a:after { content: ' +'; }
