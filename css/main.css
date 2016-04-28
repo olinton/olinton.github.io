@@ -238,10 +238,10 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	
 }
 @media all and (max-width : 768px) {
-
+/*
 li > a:after { content: ' +'; }
 
-li > a:only-child:after { content: ''; }
+li > a:only-child:after { content: ''; }*/
 
 #logo {
   display: block;
@@ -293,8 +293,6 @@ nav ul ul ul a { padding: 0 80px; }
 
 nav a:hover { background-color: #000000; }
 nav ul ul ul a { background-color: #FFcb59; 
-	font-size: 18px;
-	line-height: 62px;
 }
 nav ul ul ul a:hover { color: white; }
 
