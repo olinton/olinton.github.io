@@ -213,6 +213,9 @@ nav a:hover{
 	border-color: green;
 	border-size: 20px;
 }
+nav ul ul li a{
+	text-align: center;
+}
 nav ul ul li a, nav ul ul ul li a{
 	font-size: 18px;
 	/*line-height: 38px;*/
