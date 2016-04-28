@@ -219,7 +219,7 @@ nav ul ul li a{
 nav ul ul ul li a{
 	text-align: left;
 }
-nav ul ul li a, nav ul ul ul li a, nav ul ul li a:hover, nav ul ul ul li a:hover{
+nav ul ul li a:hover, nav ul ul ul li a:hover{
 	border-color: #ffb612;
 }
 nav ul ul li a, nav ul ul ul li a{
@@ -228,7 +228,7 @@ nav ul ul li a, nav ul ul ul li a{
 	padding: 10px 10px;
 	border-top-style: solid;
 	border-size: 1px;
-	border-color: black;
+	border-color: #ffb612;
 }
 nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	font-size: 18px;
