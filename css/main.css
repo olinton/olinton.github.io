@@ -138,10 +138,10 @@ nav ul li:hover{
 
 nav a {
   display: block;
-  padding: 0 25px;
+  padding: 20px 25px;
   color: black;
   font-size: 22px;
-  line-height: 62px;
+  /*line-height: 62px;*/
   text-decoration: none;
 	/*min-width: 100%;*/
 }
@@ -215,16 +215,16 @@ nav a:hover{
 }
 nav ul ul li a, nav ul ul ul li a{
 	font-size: 18px;
-	line-height: 38px;
-	padding: 0 10px;
+	/*line-height: 38px;*/
+	padding: 10px 10px;
 	border-top-style: solid;
 	border-size: 1px;
 	border-color: black;
 }
 nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	font-size: 18px;
-	line-height: 38px;
-	padding: 0 10px;
+	/*line-height: 38px*/
+	padding: 10px 10px;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-size: 1px;
