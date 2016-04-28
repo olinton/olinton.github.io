@@ -205,12 +205,12 @@ li > a:only-child:after { content: ''; }
 nav a{
 	border-top-style: solid;
 	border-color: red;
-	border-size: 10px;
+	border-size: 20px;
 }
 nav a:hover{
 	border-top-style: solid;
 	border-color: green;
-	border-size: 10px;
+	border-size: 20px;
 }
 	
 }
