@@ -110,9 +110,6 @@ nav:after {
   clear: both;
 }
 */
-nav a{ 
-	padding-left: 20px;
-}
 nav ul {
   float: left;
   padding: 0;
@@ -142,7 +139,7 @@ nav ul li:hover{
 
 nav a {
   display: block;
-  padding: 0 0px;
+  padding: 0 10px;
   color: black;
   font-size: 20px;
   line-height: 60px;
@@ -230,7 +227,10 @@ nav { margin: 0; }
   border: none;
 }
 
-.toggle:hover { background-color: #000000; }
+.toggle:hover { 
+	background-color: white;
+	color: #FFB612;
+}
 
 [id^=drop]:checked + ul { display: block; }
 
