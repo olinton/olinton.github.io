@@ -100,14 +100,14 @@ nav {
     background-color: white;
     height:60px;
 	float: left;
-	position: static;
+	position: fixed;
 }
 
-nav:after {
+/*nav:after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 nav ul {
   float: left;
