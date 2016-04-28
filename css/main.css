@@ -166,7 +166,9 @@ nav ul ul {
   top: 60px;
 }
 
-/*nav ul li:hover > ul { display: inherit; }*/
+nav ul li:hover > ul { 
+	display: inherit;
+}
 
 nav ul ul li {
   width: 100%;/*170px;*/
