@@ -289,10 +289,13 @@ nav ul li {
 nav ul ul .toggle,
  nav ul ul a { padding: 0 40px; }
 
-nav ul ul ul a { padding: 21px 60px; }
+nav ul ul ul a { padding: 0 80px; }
 
 nav a:hover { background-color: #000000; }
-nav ul ul ul a { background-color: #FFcb59; }
+nav ul ul ul a { background-color: #FFcb59; 
+	font-size: 18px;
+	line-height: 62px;
+}
 nav ul ul ul a:hover { color: white; }
 
 nav ul li ul li .toggle,
