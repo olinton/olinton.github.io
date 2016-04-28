@@ -115,12 +115,14 @@ nav ul {
   margin: 0;
   list-style: none;
   position: fixed;
+  width: 100%;
 }
 
 nav ul li {
   margin: 0px;
   display: inline-block;
   float: left;
+  position: relative;
   background-color: white; /*#254441;*/
 }
 
