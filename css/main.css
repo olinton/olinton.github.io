@@ -91,7 +91,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	width: 100%;
 }
 .menuBackground{
-	background: white; /*background-color: white; /*#254441;*/
+	background: rgba(255, 255, 255, 0.7) /*background-color: white; /*#254441;*/
 	text-align: left; /* or change the value to left to align left*/
 	position: fixed;
 	height: 64px;
