@@ -89,9 +89,6 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	position: relative;
 	height: 70px;
 	width: 100%;
-	border-style: solid;
-	border-color: white;
-	border-size: 1px;
 	
 	/*
 	left: 0px;
