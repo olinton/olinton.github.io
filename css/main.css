@@ -89,9 +89,12 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	position: relative;
 	height: 64px;
 	width: 100%;
+	-webkit-box-shadow: 0px 0px 89px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 89px -13px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 89px -13px rgba(0,0,0,0.75);
 }
 .menuBackground{
-	background: rgba(255, 255, 255, 0.5); /*background-color: white; /*#254441;*/
+	background: white; /*background-color: white; /*#254441;*/
 	text-align: left; /* or change the value to left to align left*/
 	position: fixed;
 	height: 64px;
@@ -106,7 +109,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 nav {
 	list-style: none;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: white;
     height:60px;
 	float: left;
 	position: fixed;
