@@ -247,6 +247,12 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	
 }
 @media all and (max-width : 768px) {
+.menuSpaceFiller{
+	position: relative;
+}
+.menuBackground{
+	position: relative;
+}
 li > a:after { content: ' +'; }
 li > a:after { content: ' -'; }
 
