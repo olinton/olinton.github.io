@@ -1,205 +1,134 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<title>Dropdowns</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="dropdowns.css">
-	<link rel="stylesheet" type="text/css" href="dropdowns-skin-discrete.css">
-	
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name = "description" content = "Description of research group goes here">
+    <meta name = "author" content = "Owen Linton (for now)">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "images/favicon.ico">
+	<link rel = "stylesheet" type = "text/css" href = "css/main.css">
 </head>
 <body>
-<div class="dropdowns">
-	
-<a class="toggleMenu" href="#">Menu</a>
-<ul class="nav">
-	<li  class="test">
-		<a href="#">Shoes</a>
-		<ul>
+
+<div class="menuBackground">
+<nav>
+<div class="center">
+	<label for="drop" class="toggle">&#9776;</label>
+	<input type="checkbox" id="drop" />
+<!----<div class="center">---->
+		<ul class="menu">
+			<li><a href="/index.html" title="About">About</a></li>
 			<li>
-				<a href="#">Womens</a>
+			<label for="drop-1" class="toggle">Research Capabilities +</label>
+			<a href="/ResearchCapabilities.html" title="ResearchCapabilities">Research Capabilities</a>
+			<input type="checkbox" id="drop-1"/>
 				<ul>
-					<li><a href="#">Sandals</a></li>
-					<li><a href="#">Sneakers</a></li>
-					<li><a href="#">Wedges</a></li>
-					<li><a href="#">Heels</a></li>
-					<li><a href="#">Loafers</a></li>
-					<li><a href="#">Flats</a></li>
+					<li>
+					<label for="drop-2" class="toggle">Steel +</label>
+					<a href="/ResearchCapabilities/Steel.html">Steel</a>
+					<input type="checkbox" id="drop-2"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Steel/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/SteelMultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Steel/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Steel/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li>
+					<label for="drop-3" class="toggle">Aluminum +</label>
+					<a href="/ResearchCapabilities/Aluminum.html">Aluminum</a>
+					<input type="checkbox" id="drop-3"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Aluminum/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/Aluminum/MultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Aluminum/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Aluminum/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li>
+					<label for="drop-4" class="toggle">Magnesium +</label>
+					<a href="/ResearchCapabilities/Magnesium.html">Magnesium</a>
+					<input type="checkbox" id="drop-4"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Magnesium/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/Magnesium/MultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Magnesium/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Magnesium/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li>
+					<label for="drop-5" class="toggle">Composites +</label>
+					<a href="/ResearchCapabilities/Composites.html">Composites</a>
+					<input type="checkbox" id="drop-5"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Composites/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/Composites/MultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Composites/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Composites/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li><a href="/ResearchCapabilities/MicrostructureBuilder.html">Microstructure Builder</a>
 				</ul>
 			</li>
 			<li>
-				<a href="#">Mens</a>
+			<label for="drop-6" class="toggle">Computational Resources +</label>
+			<a href="/ComputationalResources.html" title="ComputationalResources">Computational Resources</a>
+			<input type="checkbox" id="drop-6"/>
 				<ul>
-					<li><a href="#">Loafers</a></li>
-					<li><a href="#">Sneakers</a></li>
-					<li><a href="#">Formal</a></li>
+					<li><a href="/ComputationalResources/Waterloo.html">Waterloo</a>
+					<li><a href="/ComputationalResources/Sherbrooke.html">Sherbrooke</a>
 				</ul>
 			</li>
+			<li><a href="/People.html" title="People">People</a></li>
+			<li><a href="/Publications.html" title="Publications">Publications</a></li>
+			<li><a href="/ContactUs.html" title="ContactUs">Contact Us</a></li>
 		</ul>
-	</li>
-	<li>
-		<a href="#">Shirts</a>
-		<ul>
-			<li>
-				<a href="#">Mens</a>
-				<ul>
-					<li><a href="#">T-Shirts</a></li>
-					<li><a href="#">Dress Shirts</a></li>
-					<li><a href="#">Tank Tops</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Womens</a>
-				<ul>
-					<li><a href="#">T-Shirts</a></li>
-					<li><a href="#">Blouses</a></li>
-					<li><a href="#">Dress Shirts</a></li>
-					<li><a href="#">Tunics</a></li>
-					<li><a href="#">Camisoles</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<a href="#">Pants</a>
-		<ul>
-			<li>
-				<a href="#">Mens</a>
-				<ul>
-					<li><a href="#">Trousers</a></li>
-					<li><a href="#">Slacks</a></li>
-					<li><a href="#">Jeans</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Womens</a>
-				<ul>
-					<li><a href="#">Trousers</a></li>
-					<li><a href="#">Slacks</a></li>
-					<li><a href="#">Jeans</a></li>
-					<li><a href="#">Leggings</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<a href="#">Skirts</a>
-		<ul>
-			<li>
-				<a href="#">Long</a>
-				<ul>
-					<li><a href="#">Denim</a></li>
-					<li><a href="#">Knits</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Short</a>
-				<ul>
-					<li><a href="#">Denim</a></li>
-					<li><a href="#">Knits</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Mini</a>
-				<ul>
-					<li><a href="#">Denim</a></li>
-					<li><a href="#">Knits</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<a href="#">Dresses</a>
-		<ul>
-			<li>
-				<a href="#">Casual</a>
-			</li>
-			<li>
-				<a href="#">Formal</a>
-				<ul>
-					<li><a href="#">Wedding</a></li>
-					<li><a href="#">Party</a></li>
-				</ul>
-			</li>
-			
-		</ul>
-	</li>
-	<li>
-		<a href="#">Sweaters</a>
-		<ul>
-			<li>
-				<a href="#">Mens</a>
-				<ul>
-					<li><a href="#">Wool</a></li>
-					<li><a href="#">Knitwear</a></li>
-					<li><a href="#">Light Sweaters</a></li>
-					<li><a href="#">Cardigans</a></li>
-					<li><a href="#">Hoodies</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Womens</a>
-				<ul>
-					<li><a href="#">Wool</a></li>
-					<li><a href="#">Knitwear</a></li>
-					<li><a href="#">Light Sweaters</a></li>
-					<li><a href="#">Cardigans</a></li>
-					<li><a href="#">Hoodies</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<a href="#">Accessories</a>
-		<ul>
-			<li>
-				<a href="#">Womens</a>
-				<ul>
-					<li><a href="#">Belts</a></li>
-					<li><a href="#">Bags</a></li>
-					<li><a href="#">Jewelery</a></li>
-					<li><a href="#">Hats</a></li>
-					<li><a href="#">Eyewear</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Mens</a>
-				<ul>
-					<li><a href="#">Belts</a></li>
-					<li><a href="#">Hats</a></li>
-					<li><a href="#">Eyewear</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<a href="#">Outerwear</a>
-		<ul>
-			<li>
-				<a href="#">Womens</a>
-				<ul>
-					<li><a href="#">Winter</a></li>
-					<li><a href="#">Spring/Fall</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Mens</a>
-				<ul>
-					<li><a href="#">Winter</a></li>
-					<li><a href="#">Spring/Fall</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<a href="#">Shipping Info</a>
-	</li>
-</ul>
+	<!--<div>-->
+	<div>
+	</nav>
 </div>
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="dropdowns.js"></script>
-<script>
-	$(".dropdowns").dropdowns();
-</script>
+<div id="container">    
+    <!-- Each image is 350px by 233px -->
+    <div class="photobanner">
+     <a href="#"><img class="first" src="image_1.jpg" alt="Image 1 text" /></a>
+     <a href="#"><img src="image_2.jpg" alt="" /></a>
+     <a href="#"><img src="image_3.jpg" alt="" /></a>
+     <a href="#"><img src="image_4.jpg" alt="" /></a>
+     <a href="#"><img src="image_5.jpg" alt="" /></a>
+     <a href="#"><img src="image_6.jpg" alt="" /></a>
+	 <a href="#"><img src="image_1.jpg" alt="Image 1 text" /></a>
+     <a href="#"><img src="image_2.jpg" alt="" /></a>
+     <a href="#"><img src="image_3.jpg" alt="" /></a>
+     <a href="#"><img src="image_4.jpg" alt="" /></a>
+    </div>
+</div>
+
+
+<div class="bodyContainerWrapper">
+	<div class="bodyContainer">
+		<div class="padding">
+			<h2>Home</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia inventore quasi quisquam, voluptatibus eligendi consequatur ex iure quos dolores atque alias est distinctio expedita beatae consequuntur, repudiandae dolor! Dignissimos, inventore?</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo assumenda voluptatibus est quia saepe enim suscipit eaque, incidunt dolores. Quis nesciunt modi reprehenderit natus tempora ratione expedita necessitatibus, quas, ab praesentium explicabo voluptates! Perspiciatis quos ducimus ab quibusdam ad, adipisci. Maiores, eum vitae nemo dolore doloremque illo? Fuga, ab, sed.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, sit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eveniet reiciendis voluptate repellendus debitis vel pariatur ex, id minus dolores obcaecati facilis consequuntur dolorum deleniti eaque tempora voluptatem officia temporibus distinctio adipisci fuga ipsum, ullam. Deserunt, ipsa officiis est. Laborum et necessitatibus veniam ab quibusdam dicta quod aliquid illum facilis culpa eveniet, voluptate sit architecto, ipsum voluptates optio, numquam quae.</p>
+			<h3>Some Heading 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, magni maiores! Temporibus, consequatur nobis omnis recusandae dolorum incidunt laborum minus numquam quasi est, veritatis nesciunt ex aliquid voluptate nam iure.</p>
+			<p>Quia dolores porro inventore rem quod labore, nihil alias, molestiae libero, blanditiis consectetur deserunt debitis tempore sequi explicabo incidunt similique rerum consequatur.</p>
+			<h2>Heading 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo assumenda voluptatibus est quia saepe enim suscipit eaque, incidunt dolores. Quis nesciunt modi reprehenderit natus tempora ratione expedita necessitatibus, quas, ab praesentium explicabo voluptates! Perspiciatis quos ducimus ab quibusdam ad, adipisci. Maiores, eum vitae nemo dolore doloremque illo? Fuga, ab, sed.</p>
+			<p>Sunt eveniet reiciendis voluptate repellendus debitis vel pariatur ex, id minus dolores obcaecati facilis consequuntur dolorum deleniti eaque tempora voluptatem officia temporibus distinctio adipisci fuga ipsum, ullam. Deserunt, ipsa officiis est. Laborum et necessitatibus veniam ab quibusdam dicta quod aliquid illum facilis culpa eveniet, voluptate sit architecto, ipsum voluptates optio, numquam quae.</p>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="footerContainerWrapper">
+	<div class="footerContainer">
+		<div class="padding">
+			<p>This will be the footer with some text inside.</p>
+		</div>
+	</div>
+</div>
+
+
 </body>
 </html>
