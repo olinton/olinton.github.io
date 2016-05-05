@@ -253,6 +253,19 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
  
 @media all and (max-width : 768px) {
 .menuSpaceFiller{
+	background: white; /*background-color: white; /*#254441;*/
+	position: relative;
+	height: 40px;
+	width: 100%;
+}
+.menuBackground{
+	background: white; /*background-color: white; /*#254441;*/
+	float: right;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+}
+.menuSpaceFiller{
 	position: relative;
 }
 .menuBackground{
