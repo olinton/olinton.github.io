@@ -119,7 +119,7 @@ nav {
 }*/
 
 nav ul {
-  float: right;
+  text-align: right;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -130,7 +130,6 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  float: left;
   position: relative;
   background-color: white; /*#254441;*
   border-top-style: solid;
@@ -223,7 +222,7 @@ nav ul ul li a{
 	text-align: center;
 }
 nav ul ul ul li a{
-	text-align: right;
+	text-align: left;
 }
 nav ul ul li a:hover, nav ul ul ul li a:hover{
 	border-color: #ffb612;
