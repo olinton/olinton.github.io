@@ -279,13 +279,13 @@ nav {
 .toggle + a,
  .menu { display: none; }
 
-.toggle {
+.toggle{
   display: block;
   background-color: white; /*#254441;*/
   padding: 0 20px;
-  color: black;/*
+  color: black;
   font-size: 20px;
-  line-height: 60px;*/
+  line-height: 60px;
   text-decoration: none;
   border: none;
   position: relative;
@@ -307,9 +307,28 @@ nav ul li {
 }
 
 nav ul ul .toggle,
- nav ul ul a { padding: 0 40px; }
+ nav ul ul a { 
+   display: block;
+  background-color: white; /*#254441;*/
+  padding: 0 20px;
+  color: black;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+  border: none;
+  position: relative;
+  padding: 0 40px; }
 
-nav ul ul ul a { padding: 0 80px; }
+nav ul ul ul a {   display: block;
+  background-color: white; /*#254441;*/
+  padding: 0 20px;
+  color: black;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+  border: none;
+  position: relative;
+  padding: 0 80px; }
 
 nav a:hover { background-color: #000000; }
 nav ul ul ul a { background-color: #FFcb59; 
