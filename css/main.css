@@ -301,6 +301,17 @@ nav {
 nav ul{
 	position: relative;
 }
+nav ul a{
+	display: block;
+  background-color: white; /*#254441;*/
+  padding: 0 20px;
+  color: black;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+  border: none;
+  position: relative;
+  padding: 0 20px;}
 nav ul li {
   display: block;
   width: 100%;
