@@ -92,7 +92,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 }
 .menuBackground{
 	background: white; /*background-color: white; /*#254441;*/
-	text-align: right; /* or change the value to left to align left*/
+	float: right;
 	position: fixed;
 	height: 64px;
 	width: 100%;
