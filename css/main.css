@@ -285,7 +285,7 @@ nav {
   padding: 0 20px;
   color: black;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 40px;
   text-decoration: none;
   border: none;
   position: relative;
@@ -313,7 +313,7 @@ nav ul ul .toggle,
   padding: 0 20px;
   color: black;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 40px;
   text-decoration: none;
   border: none;
   position: relative;
@@ -324,7 +324,7 @@ nav ul ul ul a {   display: block;
   padding: 0 20px;
   color: black;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 40px;
   text-decoration: none;
   border: none;
   position: relative;
