@@ -245,6 +245,12 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 }
 	
 }
+
+
+/**
+ * Media Screen for mobile and small browser
+ */
+ 
 @media all and (max-width : 768px) {
 .menuSpaceFiller{
 	position: relative;
@@ -277,9 +283,9 @@ nav {
   display: block;
   background-color: white; /*#254441;*/
   padding: 0 20px;
-  color: black;
+  color: black;/*
   font-size: 20px;
-  line-height: 60px;
+  line-height: 60px;*/
   text-decoration: none;
   border: none;
   position: relative;
