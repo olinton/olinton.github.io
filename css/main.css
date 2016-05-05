@@ -130,7 +130,7 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-  float: right;
+  float: left;
   position: relative;
   background-color: white; /*#254441;*
   border-top-style: solid;
