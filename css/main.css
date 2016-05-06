@@ -272,7 +272,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	position: relative;
 }
 li > a:after { content: ' +'; }
-[id^=drop]:checked + li > a:after { content: ' -'; }
+[id^=drop]:checked + li > a:after { content: ' -'; } 
 
 li > a:only-child:after { content: ''; }
 
