@@ -207,51 +207,45 @@ nav ul ul ul li {
 
 @media all and (min-width : 768px) and (max-width : 962px){
 .menuSpaceFiller{
+	background: white; /*background-color: white; /*#254441;*/
+	position: relative;
 	height: 44px;
+	width: 100%;
 }
 .menuBackground{
+	background: white; /*background-color: white; /*#254441;*/
+	float: right;
+	position: fixed;
 	height: 44px;
+	width: 100%;
 }
-
-
 nav {
+	list-style: none;
+    width: 100%;
+    background-color: white;
     height:40px;
+	float: left;
+	position: fixed;
 }
-
-nav ul {
-}
-
-nav ul li {
-}
-
 nav a {
-  padding: 13px 12px;
+  display: block;
+  padding: 13px 14px;
+  color: black;
   font-size: 18px;
- }
-
-nav ul li ul li:hover { 
+  /*line-height: 62px;*/
+  text-decoration: none;
+	/*min-width: 100%;*/
 }
-
-nav a:hover { 
-}
-
 nav ul ul {
   top: 40px;
 }
-
-nav ul li:hover > ul { 
-}
-
-nav ul ul li {
-}
-nav ul ul li:hover{
-}
 nav ul ul ul li {
+  position: relative;
+  top: -40px;
+  left: 100%;
+  background-color: #e5a310;
 }
 
-
-.toggle, [id^=drop] {
-}
 }
 
 @media all and (min-width : 768px) {
