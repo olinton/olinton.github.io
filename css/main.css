@@ -205,6 +205,54 @@ nav ul ul ul li {
  display: none;
 }
 
+@media all and (min-width : 768px) and (max-width : 962px){
+.menuSpaceFiller{
+	height: 44px;
+}
+.menuBackground{
+	height: 44px;
+}
+
+
+nav {
+    height:40px;
+}
+
+nav ul {
+}
+
+nav ul li {
+}
+
+nav a {
+  padding: 13px 12px;
+  font-size: 18px;
+ }
+
+nav ul li ul li:hover { 
+}
+
+nav a:hover { 
+}
+
+nav ul ul {
+  top: 40px;
+}
+
+nav ul li:hover > ul { 
+}
+
+nav ul ul li {
+}
+nav ul ul li:hover{
+}
+nav ul ul ul li {
+}
+
+
+.toggle, [id^=drop] {
+}
+}
 
 @media all and (min-width : 768px) {
 
