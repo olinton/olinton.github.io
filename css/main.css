@@ -217,14 +217,14 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 .menuSpaceFiller{
 	background: white; 
 	position: relative;
-	height: 42px;
+	height: 43px;
 	width: 100%;
 }
 .menuBackground{
 	background: white;
 	float: right;
 	position: fixed;
-	height: 42px;
+	height: 43px;
 	width: 100%;
 }
 
@@ -276,7 +276,7 @@ nav a:hover {
 nav ul ul {
   display: none;
   position: absolute;
-  top: 42px;
+  top: 43px;
 }
 
 nav ul li:hover > ul { 
@@ -294,7 +294,7 @@ nav ul ul li:hover{
 }
 nav ul ul ul li {
   position: relative;
-  top: -42px;
+  top: -43px;
   left: 100%;
   background-color: #e5a310;
 }
