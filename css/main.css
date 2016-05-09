@@ -225,23 +225,24 @@ nav ul ul ul li a{
 }
 nav ul ul li a:hover, nav ul ul ul li a:hover{
 	border-color: #ffb612;
+	border:none;
 }
 nav ul ul li a, nav ul ul ul li a{
 	font-size: 18px;
 	/*line-height: 38px;*/
-	padding: 10px 10px;
+	padding: 10px 10px;/*
 	border-top-style: solid;
 	border-width: 1px;
-	border-color: #ffb612;
+	border-color: #ffb612;*/
 	border: none; 
 }
 nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	font-size: 18px;
 	/*line-height: 38px*/
-	padding: 10px 10px;
+	padding: 10px 10px;/*
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-width: 1px;
+	border-width: 1px;*/
 	border: none;
 }
 }
