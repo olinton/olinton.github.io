@@ -217,14 +217,14 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 .menuSpaceFiller{
 	background: white; 
 	position: relative;
-	height: 45px;
+	height: 46px;
 	width: 100%;
 }
 .menuBackground{
 	background: white;
 	float: right;
 	position: fixed;
-	height: 45px;
+	height: 46px;
 	width: 100%;
 }
 
