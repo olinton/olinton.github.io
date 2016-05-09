@@ -170,7 +170,7 @@ nav a:hover {
 nav ul ul {
   display: none;
   position: absolute;
-  top: 60px;
+  top: 64px;
 }
 
 nav ul li:hover > ul { 
@@ -195,7 +195,7 @@ nav ul ul li:hover{
 }
 nav ul ul ul li {
   position: relative;
-  top: -60px;
+  top: -64px;
   left: 100%;
   background-color: #e5a310;
 }
@@ -209,13 +209,13 @@ nav ul ul ul li {
 
 nav a{
 	border-top-style: solid;
-	border-color: white;
-	border-width: 20px;
+	border-color: white; 
+	border-width: 4px;
 }
 nav a:hover{
 	border-top-style: solid;
 	border-color: #ffb612;
-	border-width: 20px;
+	border-width: 4px;
 }
 nav ul ul li a{
 	text-align: center;
