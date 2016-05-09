@@ -226,7 +226,7 @@ nav ul ul ul li a{
 nav ul ul li a:hover, nav ul ul ul li a:hover{
 	border-color: #ffb612;
 	border:none;
-	box-shadow: 0px 1px 0px red inset, 0px -1px 0px red inset;  
+	box-shadow: 0px 3px 0px red inset; 
 }
 nav ul ul li a, nav ul ul ul li a{
 	font-size: 18px;
@@ -236,7 +236,7 @@ nav ul ul li a, nav ul ul ul li a{
 	border-width: 1px;
 	border-color: #ffb612;*/
 	border: none; 
-	box-shadow: 0px 1px 0px red inset, 0px -1px 0px red inset; 
+	box-shadow: 0px 3px 0px red inset; 
 }
 nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	font-size: 18px;
@@ -246,7 +246,10 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	border-bottom-style: solid;
 	border-width: 1px;*/
 	border: none;
-	box-shadow: 0px 1px 0px red inset, 0px -2px 0px red inset; 
+	box-shadow: 0px 3px 0px red inset;
+	border-bottom-color: red;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
 }
 }
 @media all and (min-width : 768px) and (max-width : 962px){
