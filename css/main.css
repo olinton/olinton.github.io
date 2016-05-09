@@ -213,6 +213,91 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 }
 }
 @media all and (min-width : 768px) and (max-width : 1159px){
+	
+.menuSpaceFiller{
+	background: white; 
+	position: relative;
+	height: 42px;
+	width: 100%;
+}
+.menuBackground{
+	background: white;
+	float: right;
+	position: fixed;
+	height: 42px;
+	width: 100%;
+}
+
+
+nav {
+	list-style: none;
+    width: 100%;
+    background-color: white;
+    height:40px;
+	float: left;
+	position: fixed;
+}
+
+nav ul {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  background-color: white;
+}
+
+nav a {
+  display: block;
+  padding: 11px 16px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav ul li ul li:hover { 
+	background: white;
+	color: #FFB612;
+}
+
+nav a:hover { 
+	background-color: white; 
+	color: #FFB612;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 42px;
+}
+
+nav ul li:hover > ul { 
+	display: inherit;
+}
+
+nav ul ul li {
+  width: 100%;
+  float: none;
+  display: list-item;
+  position: relative;
+  background-color: #ffc441;
+}
+nav ul ul li:hover{
+}
+nav ul ul ul li {
+  position: relative;
+  top: -42px;
+  left: 100%;
+  background-color: #e5a310;
+}
 nav a{
 	border-top-style: solid;
 	border-color: white; 
