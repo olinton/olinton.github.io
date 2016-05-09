@@ -210,12 +210,12 @@ nav ul ul ul li {
 nav a{
 	border-top-style: solid;
 	border-color: white;
-	border-size: 20px;
+	border-width: 20px;
 }
 nav a:hover{
 	border-top-style: solid;
 	border-color: #ffb612;
-	border-size: 20px;
+	border-width: 20px;
 }
 nav ul ul li a{
 	text-align: center;
@@ -231,7 +231,7 @@ nav ul ul li a, nav ul ul ul li a{
 	/*line-height: 38px;*/
 	padding: 10px 10px;
 	border-top-style: solid;
-	border-size: 1px;
+	border-width: 1px;
 	border-color: #ffb612;
 }
 nav ul ul li:last-child a, nav ul ul ul li:last-child a{
@@ -240,7 +240,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	padding: 10px 10px;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-size: 1px;
+	border-width: 1px;
 }
 }
 @media all and (min-width : 768px) and (max-width : 962px){
