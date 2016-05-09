@@ -149,7 +149,7 @@ nav a {
   padding: 19px 25px;
   color: black;
   font-size: 22px;
-  line-height: 60px;
+  /*line-height: 62px;*/
   text-decoration: none;
 	/*min-width: 100%;*/
 }
