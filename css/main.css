@@ -442,7 +442,7 @@ nav ul ul ul a {   display: block;
   text-decoration: none;
   border: none;
   position: relative;
-  padding: 0 80px; }
+  padding: 0 60px; }
 
 nav a:hover { background-color: #000000; }
 nav ul ul ul a { background-color: #FFcb59; 
