@@ -84,21 +84,17 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .photobanner img:hover {
 }
 .menuSpaceFiller{
-	background: white; /*background-color: white; /*#254441;*/
+	background: white; 
 	position: relative;
 	height: 64px;
 	width: 100%;
 }
 .menuBackground{
-	background: white; /*background-color: white; /*#254441;*/
+	background: white;
 	float: right;
 	position: fixed;
 	height: 64px;
 	width: 100%;
-	
-	/*
-	left: 0px;
-	top: 0px;*/
 }
 
 
@@ -110,12 +106,6 @@ nav {
 	float: left;
 	position: fixed;
 }
-
-/*nav:after {
-  content: "";
-  display: table;
-  clear: both;
-}*/
 
 nav ul {
   float: left;
@@ -131,39 +121,24 @@ nav ul li {
   display: inline-block;
   float: left;
   position: relative;
-  background-color: white; /*#254441;*
-  border-top-style: solid;
-	border-top-color: white;
-	border-top-width: 10px;*/
+  background-color: white;
 }
-/*
-nav ul li:hover{
-	/*
-	border-top-style: solid;
-	border-top-color: #FFB612;
-	border-top-width: 10px;*
-}*/
 
 nav a {
   display: block;
   padding: 19px 25px;
   color: black;
   font-size: 22px;
-  /*line-height: 62px;*/
   text-decoration: none;
-	/*min-width: 100%;*/
 }
 
 nav ul li ul li:hover { 
-	background: white; /*#000000; */
+	background: white;
 	color: #FFB612;
-/*	border-top-style: solid;
-	border-top-color: #FFB612;
-	border-top-width: 10px;*/
 }
 
 nav a:hover { 
-	background-color: white; /*#000000; */
+	background-color: white; 
 	color: #FFB612;
 }
 
@@ -178,20 +153,13 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 100%;/*170px;*/
+  width: 100%;
   float: none;
   display: list-item;
   position: relative;
-  background-color: #ffc441;/*
-  	border-top-style: solid;
-	border-top-color: #ffc441;
-	border-top-width: 4px;*/
+  background-color: #ffc441;
 }
 nav ul ul li:hover{
-	/*
-	border-top-style: solid;
-	border-top-color: black;
-	border-top-width: 4px;*/
 }
 nav ul ul ul li {
   position: relative;
@@ -230,21 +198,13 @@ nav ul ul li a:hover, nav ul ul ul li a:hover{
 }
 nav ul ul li a, nav ul ul ul li a{
 	font-size: 18px;
-	/*line-height: 38px;*/
-	padding: 10px 10px;/*
-	border-top-style: solid;
-	border-width: 1px;
-	border-color: #ffb612;*/
+	padding: 10px 10px;
 	border: none; 
 	box-shadow: 0px 3px 0px #FFB612 inset; 
 }
 nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	font-size: 18px;
-	/*line-height: 38px*/
-	padding: 10px 10px;/*
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-width: 1px;*/
+	padding: 10px 10px;
 	border: none;
 	box-shadow: 0px 3px 0px #FFB612 inset;
 	border-bottom-color: #FFB612;
@@ -252,47 +212,43 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	border-bottom-width: 3px; 
 }
 }
-@media all and (min-width : 768px) and (max-width : 962px){
-.menuSpaceFiller{
-	background: white; /*background-color: white; /*#254441;*/
-	position: relative;
-	height: 44px;
-	width: 100%;
+@media all and (min-width : 768px) and (max-width : 1159px){
+nav a{
+	border-top-style: solid;
+	border-color: white; 
+	border-width: 3px;
 }
-.menuBackground{
-	background: white; /*background-color: white; /*#254441;*/
-	float: right;
-	position: fixed;
-	height: 44px;
-	width: 100%;
+nav a:hover{
+	border-top-style: solid;
+	border-color: #ffb612;
+	border-width: 3px;
 }
-nav {
-	list-style: none;
-    width: 100%;
-    background-color: white;
-    height:40px;
-	float: left;
-	position: fixed;
+nav ul ul li a{
+	text-align: center;
 }
-nav a {
-  display: block;
-  padding: 13px 14px;
-  color: black;
-  font-size: 18px;
-  /*line-height: 62px;*/
-  text-decoration: none;
-	/*min-width: 100%;*/
+nav ul ul ul li a{
+	text-align: left;
 }
-nav ul ul {
-  top: 40px;
+nav ul ul li a:hover, nav ul ul ul li a:hover{
+	border-color: #ffb612;
+	border:none;
+	box-shadow: 0px 2px 0px #FFB612 inset; 
 }
-nav ul ul ul li {
-  position: relative;
-  top: -40px;
-  left: 100%;
-  background-color: #e5a310;
+nav ul ul li a, nav ul ul ul li a{
+	font-size: 15px;
+	padding: 6px 6px;
+	border: none; 
+	box-shadow: 0px 2px 0px #FFB612 inset; 
 }
-
+nav ul ul li:last-child a, nav ul ul ul li:last-child a{
+	font-size: 15px;
+	padding: 6px 6px;
+	border: none;
+	box-shadow: 0px 2px 0px #FFB612 inset;
+	border-bottom-color: #FFB612;
+	border-bottom-style: solid;
+	border-bottom-width: 2px; 
+}
 }
 
 
