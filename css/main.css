@@ -92,7 +92,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .menuBackground{
 	background: white;
 	float: right;
-	position: fixed;
+	position: relative;
 	height: 64px;
 	width: 100%;
 }
@@ -223,7 +223,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 .menuBackground{
 	background: white;
 	float: right;
-	position: fixed;
+	position: relative;
 	height: 46px;
 	width: 100%;
 }
@@ -235,7 +235,7 @@ nav {
     background-color: white;
     height:40px;
 	float: left;
-	position: fixed;
+	position: relative;
 }
 
 nav ul {
