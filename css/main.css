@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 150%; background: #eee; }
+body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 150%; background: white; }
 .headerContainerWrapper { background: white; }
 .center { max-width: 100%; margin: 0 auto; }
 .headerContainer, .bodyContainer, .footerContainer { max-width: 962px; margin: 0 auto; background: white; }
