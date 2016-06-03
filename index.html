@@ -5,12 +5,16 @@
     var startProductBarPos=-1;
     window.onscroll=function(){
         var bar = document.getElementById('sticker');
+        var bar2 = document.getElementById('antiSticker');
         if(startProductBarPos<0)startProductBarPos=findPosY(bar);
 
         if(pageYOffset>startProductBarPos){
             bar.style.position='fixed';
             bar.style.top=0;
+            bar2.style.position='relative';
         }else{
+            bar2.style.position='fixed';
+            bar2.style.top=0;
             bar.style.position='relative';
         }
 
@@ -41,6 +45,8 @@
 <body>
 <div class="groupLogo">
 	<img src="https://lab.research.sickkids.ca/howell/wp-content/themes/Avada-Child-Theme/img/logo_sickkids.jpg"></img>
+</div>
+<div id="antiSticker" class="menuSpaceFiller">
 </div>
 <div id="sticker" class="menuSpaceFiller">
 <div class="menuBackground">
