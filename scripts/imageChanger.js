@@ -14,10 +14,9 @@ function fadeImg(el, val, fade){
     }
 }
 function doChangeImage(){
-	
+	fadeImg(img, 0, false);
 	setTimeout("changeImage()", fadeTime);
 	setTimeout(function(){fadeImg(img, 100, true);}, fadeTime - 1000);
-	fadeImg(img, 0, false);
 }
 var images = ["images/image_1.jpg", "images/image_2.jpg", "images/image_3.jpg", 
 "images/image_4.jpg", "images/image_5.jpg", "images/image_6.jpg", ],
