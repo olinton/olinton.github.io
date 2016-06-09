@@ -26,8 +26,10 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .imageBanner a{
 	color: white;
 	position: absolute;
-	left: 0;
-	size: 30px;
+	left: 10px;
+	top: 85px;
+	font-size: 30px;
+	font-weight: bold;
 }
 #container {
  width: 100%;/*1000px;*/
