@@ -15,7 +15,6 @@ function fadeImg(el, val, fade){
         setTimeout(function(){fadeImg(el, val, fade);}, 10);
     }
     else{
-        el.style.opacity = 1.0;
     }
 }
 
