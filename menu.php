@@ -1,3 +1,4 @@
+<?php
 echo '<div class="groupLogo">
 	<img src="https://lab.research.sickkids.ca/howell/wp-content/themes/Avada-Child-Theme/img/logo_sickkids.jpg"></img>
 </div>
@@ -77,3 +78,4 @@ echo '<div class="groupLogo">
 	</nav>
 </div>
 </div>';
+?>
