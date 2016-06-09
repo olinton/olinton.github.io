@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+	<script src="/scripts/w3data.js"></script>
 	 <!--<script type='text/javascript'>
     var startProductBarPos=72;
     window.onscroll=function(){
@@ -122,12 +123,10 @@
 	</nav>
 </div>
 </div>-->
-<div class="phpMenu">
-<?php 
-include('menu.php');
-?>
-</div>
-
+<div w3-include-html="/html/menu.html"></div> 
+<script>
+w3IncludeHTML();
+</script>
 <div id="container">    
     <!-- Each image is 350px by 233px -->
     <div class="photobanner">
