@@ -11,6 +11,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	 min-width: 100%;
 	 text-align: center;
 	 position: relative;
+	 z-index: -1;
  }
 .imageBanner img{
 	position: absolute;
