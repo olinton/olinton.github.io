@@ -9,7 +9,7 @@ function changeImage()
     } 
 
     fadeImg(img, 100, true);
-    setTimeout("changeImage()", 30000);
+    setTimeout("changeImage()", 5000);
 }
 
 function fadeImg(el, val, fade){
