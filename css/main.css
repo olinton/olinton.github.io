@@ -391,6 +391,7 @@ li > a:only-child:after { content: ''; }
 nav { 
 	margin: 0;
 	position: relative;
+    height:40px;
  }
 
 .toggle + a,
