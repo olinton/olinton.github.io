@@ -12,7 +12,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	 text-align: center;
 	 position: relative;
 	 z-index: -1;
-	 overflow: none;
+	 overflow: hidden;
  }
 .imageBanner img{
 	position: absolute;
