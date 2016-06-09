@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	 <!--<script type='text/javascript'>
+    var startProductBarPos=72;
+    window.onscroll=function(){
+        var bar = document.getElementById('sticker');
+        var bar2 = document.getElementById('antiSticker');
+        if(startProductBarPos<0)startProductBarPos=findPosY(bar);
+
+        if(pageYOffset>startProductBarPos){
+            bar.style.position='fixed';
+            bar.style.top=0;
+            bar2.style.position='relative';
+        }else{
+            bar2.style.position='fixed';
+            bar2.style.top=0;
+            bar.style.position='relative';
+        }
+
+    };
+
+
+    function findPosY(obj) {
+        var curtop = 0;
+        if (typeof (obj.offsetParent) != 'undefined' && obj.offsetParent) {
+            while (obj.offsetParent) {
+                curtop += obj.offsetTop;
+                obj = obj.offsetParent;
+            }
+            curtop += obj.offsetTop;
+        }
+        else if (obj.y)
+            curtop += obj.y;
+        return curtop;
+    }
+    </script>-->
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name = "description" content = "Description of research group goes here">
+    <meta name = "author" content = "Owen Linton (for now)">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "/images/favicon.ico">
+	<link rel = "stylesheet" type = "text/css" href = "/css/main.css">
+</head>
+<body>
+
+<!--<div class="groupLogo">
+	<img src="https://lab.research.sickkids.ca/howell/wp-content/themes/Avada-Child-Theme/img/logo_sickkids.jpg"></img>
+</div>
+<div id="antiSticker" class="menuSpaceFiller" style="visibility: hidden; position: fixed; top: 0px;">
+</div>
+<div id="sticker" class="menuSpaceFiller">
+<div class="menuBackground">
+<nav>
+<div class="center">
+	<label for="drop" class="toggle">&#9776;</label>
+	<input type="checkbox" id="drop" />
+		<ul class="menu">
+			<li><a href="/index.html" title="About">About</a></li>
+			<li>
+			<label for="drop-1" class="toggle">Research Capabilities +</label>
+			<a href="/ResearchCapabilities/Home.html" title="ResearchCapabilities">Research Capabilities</a>
+			<input type="checkbox" id="drop-1"/>
+				<ul>
+					<li>
+					<label for="drop-2" class="toggle">Steel +</label>
+					<a href="/ResearchCapabilities/Steel/Home.html">Steel</a>
+					<input type="checkbox" id="drop-2"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Steel/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/Steel/MultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Steel/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Steel/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li>
+					<label for="drop-3" class="toggle">Aluminum +</label>
+					<a href="/ResearchCapabilities/Aluminum/Home.html">Aluminum</a>
+					<input type="checkbox" id="drop-3"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Aluminum/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/Aluminum/MultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Aluminum/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Aluminum/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li>
+					<label for="drop-4" class="toggle">Magnesium +</label>
+					<a href="/ResearchCapabilities/Magnesium/Home.html">Magnesium</a>
+					<input type="checkbox" id="drop-4"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Magnesium/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/Magnesium/MultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Magnesium/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Magnesium/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li>
+					<label for="drop-5" class="toggle">Composites +</label>
+					<a href="/ResearchCapabilities/Composites/Home.html">Composites</a>
+					<input type="checkbox" id="drop-5"/>
+					    <ul>
+							<li><a href="/ResearchCapabilities/Composites/Micromechanics.html">Micromechanics</a></li>
+							<li><a href="/ResearchCapabilities/Composites/MultiscaleModelling.html">Multiscale Modelling</a></li>
+							<li><a href="/ResearchCapabilities/Composites/Fracture.html">Fracture</a></li>
+							<li><a href="/ResearchCapabilities/Composites/Crashworthiness.html">Crashworthiness</a></li>
+						</ul>
+					<li><a href="/ResearchCapabilities/MicrostructureBuilder.html">Microstructure Builder</a>
+				</ul>
+			</li>
+			<li>
+			<label for="drop-6" class="toggle">Computational Resources +</label>
+			<a href="/ComputationalResources/Home.html" title="ComputationalResources">Computational Resources</a>
+			<input type="checkbox" id="drop-6"/>
+				<ul>
+					<li><a href="/ComputationalResources/Waterloo.html">Waterloo</a>
+					<li><a href="/ComputationalResources/Sherbrooke.html">Sherbrooke</a>
+				</ul>
+			</li>
+			<li><a href="/People/Home.html" title="People">People</a></li>
+			<li><a href="/Publications/Home.html" title="Publications">Publications</a></li>
+			<li><a href="/ContactUs/Home.html" title="ContactUs">Contact Us</a></li>
+		</ul>
+	<div>
+	</nav>
+</div>
+</div>-->
+<div class="phpMenu">
+<?php 
+include('menu.php');
+?>
+</div>
+
+<div id="container">    
+    <!-- Each image is 350px by 233px -->
+    <div class="photobanner">
+     <a href="#"><img class="first" src="/images/image_1.jpg" alt="Image 1 text" /></a>
+     <a href="#"><img src="/images/image_2.jpg" alt="" /></a>
+     <a href="#"><img src="/images/image_3.jpg" alt="" /></a>
+     <a href="#"><img src="/images/image_4.jpg" alt="" /></a>
+     <a href="#"><img src="/images/image_5.jpg" alt="" /></a>
+     <a href="#"><img src="/images/image_6.jpg" alt="" /></a>
+	 <a href="#"><img src="/images/image_1.jpg" alt="Image 1 text" /></a>
+     <a href="#"><img src="/images/image_2.jpg" alt="" /></a>
+     <a href="#"><img src="/images/image_3.jpg" alt="" /></a>
+     <a href="#"><img src="/images/image_4.jpg" alt="" /></a>
+    </div>
+</div>
+
+
+<div class="bodyContainerWrapper">
+	<div class="bodyContainer">
+		<div class="padding">
+			<h2>About Us</h2>
+			<p>This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. </p>
+			<p>This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. </p>
+			<p>This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eveniet reiciendis voluptate repellendus debitis vel pariatur ex, id minus dolores obcaecati facilis consequuntur dolorum deleniti eaque tempora voluptatem officia temporibus distinctio adipisci fuga ipsum, ullam. Deserunt, ipsa officiis est. Laborum et necessitatibus veniam ab quibusdam dicta quod aliquid illum facilis culpa eveniet, voluptate sit architecto, ipsum voluptates optio, numquam quae.</p>
+			<h3>Small Mid-Section Heading</h3>
+			<p>This is the fourth paragraph of the page. This is the fourth paragraph of the page. This is the fourth paragraph of the page. This is the fourth paragraph of the page. This is the fourth paragraph of the page. This is the fourth paragraph of the page. This is the fourth paragraph of the page. This is the fourth paragraph of the page. </p>
+			<p>This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. This is the fifth paragraph of the page. </p>
+			<h2>Another main heading</h2>
+			<p>This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. This is the sixth paragraph of the page. </p>
+			<p>This is the seventh paragraph of the page. This is the seventh paragraph of the page. This is the seventh paragraph of the page. </p>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="footerContainerWrapper">
+	<div class="footerContainer">
+		<div class="padding">
+			<p>Footer of the page goes here.</p>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
