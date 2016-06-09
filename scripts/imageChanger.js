@@ -31,4 +31,4 @@ x = 0;
 images[0] = "/images/image_1.jpg";
 images[1] = "/images/image_2.jpg";
 images[2] = "/images/image_3.jpg";
-setTimeout("changeImage()", 30000);
+setTimeout("changeImage()", 5000);
