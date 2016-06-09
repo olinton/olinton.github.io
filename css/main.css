@@ -226,7 +226,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	border-bottom-width: 3px; 
 }
 }
-@media all and (min-width : 768px) and (max-width : 1159px){
+@media all and (min-width : 881px) and (max-width : 1159px){
 	
 .menuSpaceFiller{
 	background: white; 
@@ -355,7 +355,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
  * Media Screen for mobile and small browser
  */
  
-@media all and (max-width : 768px) {
+@media all and (max-width : 881px) {
 .menuSpaceFiller{
 	background: white; /*background-color: white; /*#254441;*/
 	position: relative;
