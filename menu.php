@@ -1,4 +1,4 @@
-<div class="groupLogo">
+echo '<div class="groupLogo">
 	<img src="https://lab.research.sickkids.ca/howell/wp-content/themes/Avada-Child-Theme/img/logo_sickkids.jpg"></img>
 </div>
 <div id="antiSticker" class="menuSpaceFiller" style="visibility: hidden; position: fixed; top: 0px;">
@@ -76,4 +76,4 @@
 	<div>
 	</nav>
 </div>
-</div>
+</div>';
