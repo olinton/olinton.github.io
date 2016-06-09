@@ -7,7 +7,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
  
  .imageBanner {
 	 background: gray;
-	 min-height: 300px;
+	 min-height: 200px;
 	 min-width: 100%;
 	 text-align: center;
 	 position: relative;
