@@ -3,9 +3,7 @@ function changeImage()
     var img = document.getElementById("bannerImg");
     img.src = images[x];
     x = (x + 1) % images.length;
-    setTimeout("changeImage()", fadeTime);    
-    setTimeout(function(){fadeImg(img, 100, true);}, fadeTime - 1000);
-    fadeImg(img, 0, false);
+    doChangeImage();
 }
 
 function fadeImg(el, val, fade){
@@ -14,12 +12,15 @@ function fadeImg(el, val, fade){
         el.style.opacity = val / 100;
         setTimeout(function(){fadeImg(el, val, fade);}, 10);
     }
-    else{
-    }
 }
-
+function doChangeImage(){
+	
+	setTimeout("changeImage()", fadeTime);
+	setTimeout(function(){fadeImg(img, 100, true);}, fadeTime - 1000);
+	fadeImg(img, 0, false);
+}
 var images = ["images/image_1.jpg", "images/image_2.jpg", "images/image_3.jpg", 
 "images/image_4.jpg", "images/image_5.jpg", "images/image_6.jpg", ],
 fadeTime = 10000,
 x = 1;
-setTimeout("changeImage()", fadeTime);
+doChangeImage();
