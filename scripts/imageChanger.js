@@ -15,7 +15,6 @@ function fadeImg(el, val, fade){
 }
 function doChangeImage(){
     var img = document.getElementById("bannerImg");
-    img.src = images[x];
 	fadeImg(img, 0, false);
 	setTimeout("changeImage()", fadeTime);
 	setTimeout(function(){fadeImg(img, 100, true);}, fadeTime - 1000);
@@ -24,4 +23,4 @@ var images = ["images/image_1.jpg", "images/image_2.jpg", "images/image_3.jpg",
 "images/image_4.jpg", "images/image_5.jpg", "images/image_6.jpg", ],
 fadeTime = 10000,
 x = 1;
-doChangeImage();
+setTimeout("doChangeImage()", 100);
