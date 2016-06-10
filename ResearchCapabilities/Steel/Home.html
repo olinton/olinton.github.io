@@ -1,6 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+	<script src="/scripts/w3data.js"></script>
+	<script src="/scripts/menuSticky.js"></script>
+	<script src="/scripts/imageChanger.js"></script>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name = "description" content = "Description of research group goes here">
     <meta name = "author" content = "Owen Linton (for now)">
@@ -9,7 +12,13 @@
 	<link rel = "stylesheet" type = "text/css" href = "/css/main.css">
 </head>
 <body>
-<div class="menuSpaceFiller">
+
+<!-- This is the menu that is on every page -->
+<div class="groupLogo">
+	<img src="/images/logo_sickkids.jpg"></img>
+</div><div id="antiSticker" class="menuSpaceFiller" style="visibility: hidden; position: fixed; top: 0px;">
+</div>
+<div id="sticker" class="menuSpaceFiller">
 <div class="menuBackground">
 <nav>
 <div class="center">
@@ -84,27 +93,24 @@
 </div>
 </div>
 
-<div id="container">    
-    <!-- Each image is 350px by 233px -->
-    <div class="photobanner">
-     <a href="#"><img class="first" src="/images/image_1.jpg" alt="Image 1 text" /></a>
-     <a href="#"><img src="/images/image_2.jpg" alt="" /></a>
-     <a href="#"><img src="/images/image_3.jpg" alt="" /></a>
-     <a href="#"><img src="/images/image_4.jpg" alt="" /></a>
-     <a href="#"><img src="/images/image_5.jpg" alt="" /></a>
-     <a href="#"><img src="/images/image_6.jpg" alt="" /></a>
-	 <a href="#"><img src="/images/image_1.jpg" alt="Image 1 text" /></a>
-     <a href="#"><img src="/images/image_2.jpg" alt="" /></a>
-     <a href="#"><img src="/images/image_3.jpg" alt="" /></a>
-     <a href="#"><img src="/images/image_4.jpg" alt="" /></a>
-    </div>
+<div class="imageContainer">
+	<div class="imageBanner">
+		<img id="bannerImg1" src="/images/image_1.jpg" alt="Image 1"></img>
+		<img id="bannerImg2" src="/images/image_2.jpg" alt="Image 2"></img>
+		<img id="bannerImg3" src="/images/image_3.jpg" alt="Image 3"></img>
+		<img id="bannerImg4" src="/images/image_4.jpg" alt="Image 4"></img>
+		<div style="display:table;height:200px;">
+			<div style="display:table-cell;vertical-align:middle;">
+				<a id="titleText">Custom text overlay for image</a>
+			</div>
+		</div>
+	</div>
 </div>
-
 
 <div class="bodyContainerWrapper">
 	<div class="bodyContainer">
 		<div class="padding">
-			<h2>Research Capabilities Steel Home</h2>
+			<h2>About Us</h2>
 			<p>This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. This is the first paragraph of the page. </p>
 			<p>This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. This is the second paragraph of the page. </p>
 			<p>This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. This is the Third paragraph of the page. </p>
