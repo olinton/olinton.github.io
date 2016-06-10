@@ -1,7 +1,7 @@
 function changeImage()
 {
     x = x + 1;
-	if(!document.getElementById("bannerImg" + x))
+	if(document.getElementById("bannerImg" + x) == null)
 		x = 1;
     var img = document.getElementById("bannerImg" + x);
     doChangeImage();
