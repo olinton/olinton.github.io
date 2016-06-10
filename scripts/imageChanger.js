@@ -9,7 +9,10 @@ function changeImage()
 function fadeImg(el, val, fade){
     val = val + (fade ? -1 : 1);
     if(val > 0 && val < 30){
-        el.style.opacity = val / 30;
+        if(val < 2)
+			el.style.opacity = 0;
+		else
+			el.style.opacity = val / 30;
         setTimeout(function(){fadeImg(el, val, fade);}, 10);
     }
 }
