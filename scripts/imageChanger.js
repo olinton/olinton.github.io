@@ -2,7 +2,7 @@ function changeImage()
 {
     var img = document.getElementById("bannerImg" + x);
 //    img.src = images[x];
-    x = (x + 1) % images.length;
+    x = (x % images.length) + 1;
     doChangeImage();
 }
 
@@ -17,7 +17,7 @@ function doChangeImage(){
     var img = document.getElementById("bannerImg" + x);
 	fadeImg(img, 0, false);
 	setTimeout("changeImage()", fadeTime);
-	setTimeout(function(){fadeImg(img, 30, true);}, fadeTime - 300);
+	setTimeout(function(){fadeImg(img, 30, true);}, fadeTime - 50);
 }
 var images = ["/images/image_1.jpg", "/images/image_2.jpg", "/images/image_3.jpg", 
 "/images/image_4.jpg", "/images/image_5.jpg", "/images/image_6.jpg"],
