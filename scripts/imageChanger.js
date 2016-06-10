@@ -2,7 +2,7 @@ function changeImage()
 {
     var img = document.getElementById("bannerImg" + x);
     x = x + 1;
-	if(!document.getElementById("bannerImg" + x)
+	if(!document.getElementById("bannerImg" + x))
 		x = 1;
     doChangeImage();
 }
