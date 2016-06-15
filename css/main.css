@@ -13,6 +13,9 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	 position: relative;
 	 z-index: -1;
 	 overflow: hidden;
+	 border-top-style: solid;
+     border-bottom-style: solid;
+     border-width: 4px;
  }
 .imageBanner img{
 	position: absolute;
@@ -47,68 +50,10 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 /*photobanner*/
 .photobanner {
  height: 233px;
- width: 10000px;
+ width: 100%
  /*margin-bottom: 20px;*/
 }
 
-/*keyframe animations*/
-.first {
- -webkit-animation: bannermove 70s linear infinite;
-    -moz-animation: bannermove 70s linear infinite;
-     -ms-animation: bannermove 70s linear infinite;
-      -o-animation: bannermove 70s linear infinite;
-         animation: bannermove 70s linear infinite;
-}
- 
-@keyframes bannermove {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -4825px;
- }
- 
-}
- 
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -4825px;
- }
- 
-}
- 
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -4825px;
- }
- 
-}
- 
-@-ms-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -4825px;
- }
- 
-}
- 
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -4825px;
- }
- 
-}
 .photobanner img {
 }
  
