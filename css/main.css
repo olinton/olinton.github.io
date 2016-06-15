@@ -148,7 +148,7 @@ nav ul ul ul li {
  display: none;
 }
 
-@media all and (min-width : 768px) {
+@media all and (min-width : 881px) {
 
 nav a{
 	border-top-style: solid;
