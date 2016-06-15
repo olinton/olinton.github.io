@@ -385,7 +385,7 @@ nav ul a{
   background-color: white; /*#254441;*/
   padding: 0 10px;
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
   text-decoration: none;
   border: none;
@@ -402,7 +402,7 @@ nav ul ul .toggle,
   background-color: white; /*#254441;*/
   padding: 0 15px;
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
   text-decoration: none;
   border: none;
@@ -412,7 +412,7 @@ nav ul ul .toggle,
 nav ul ul ul a {   display: block;
   background-color: white; /*#254441;*/
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
   text-decoration: none;
   border: none;
