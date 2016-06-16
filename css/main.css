@@ -6,25 +6,22 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .bodyContainer { min-height: 500px; }
  
 #peopleContainer{
-	padding-bottom: 20px
+	padding-bottom: 20px; 
 }
 #peopleContainer img{
-	width: 150px;
+	width: 160px;
 }
 #personImage{
 	width: 150px;
 	float: left;
 }
-#personBio{
-	padding-left:5px;
-}
 #personName{
-	padding-left: 20px;
+	padding-left: 162px;
 	font-size: 135%;
 	font-weight: 800;
 }
 #personTitles{
-	padding-left: 25px;
+	padding-left: 165px;
 	font-size: 90%;
 	font-weight:600;
 }
