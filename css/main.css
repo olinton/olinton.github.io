@@ -9,10 +9,10 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	padding-bottom: 20px; 
 }
 #peopleContainer img{
-	width: 160px;
+	width: 150px;
 }
 #personImage{
-	width: 150px;
+	width: 160px;
 	float: left;
 }
 #personName{
@@ -468,10 +468,10 @@ nav ul ul ul li { position: static;
 	padding-bottom: 15px; 
 }
 #peopleContainer img{
-	width: 135px;
+	width: 130px;
 }
 #personImage{
-	width: 130px;
+	width: 135px;
 	float: left;
 }
 #personName{
