@@ -6,10 +6,10 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .bodyContainer { min-height: 500px; }
  
  
- .peopleContainer img{
+ #peopleContainer img{
 	 width: 150px;
  }
-.personImage{
+#personImage{
 	 width: 150px;
 	 float: left;
  }
