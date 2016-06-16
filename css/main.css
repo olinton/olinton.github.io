@@ -464,4 +464,22 @@ nav ul ul li {
 nav ul ul ul li { position: static;
 
 }
+#peopleContainer{
+	padding-bottom: 15px; 
+}
+#peopleContainer img{
+	width: 135px;
+}
+#personImage{
+	width: 130px;
+	float: left;
+}
+#personName{
+	font-size: 135%;
+	font-weight: 800;
+}
+#personTitles{
+	font-size: 90%;
+	font-weight:600;
+}
 }
