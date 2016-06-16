@@ -5,6 +5,14 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .padding {	padding: 20px; }
 .bodyContainer { min-height: 500px; }
  
+ 
+ .peopleContainer img{
+	 width: 150px;
+ }
+.personImage{
+	 width: 150px;
+	 float: left;
+ }
  .imageBanner {
 	 background: gray;
 	 min-height: 200px;
