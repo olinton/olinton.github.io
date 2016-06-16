@@ -475,10 +475,12 @@ nav ul ul ul li { position: static;
 	float: left;
 }
 #personName{
+	padding-left: 137px;
 	font-size: 135%;
 	font-weight: 800;
 }
 #personTitles{
+	padding-left: 140px;
 	font-size: 90%;
 	font-weight:600;
 }
