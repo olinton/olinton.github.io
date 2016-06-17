@@ -338,9 +338,13 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 }
 
 
-/**
- * Media Screen for mobile and small browser
- */
+ /**********************************************************\
+ * 															*
+ *															*
+ *      Media Screen for mobile and small browser			*
+ *															*
+ *															*
+ \**********************************************************/
  
 @media all and (max-width : 881px) {
 .menuSpaceFiller{
@@ -416,7 +420,15 @@ nav ul a{
   text-decoration: none;
   border: none;
   position: relative;
-  padding: 0 10px;}
+  padding: 0 10px;
+  border-top-style: solid;
+  border-width:1px;
+}
+nav ul a:last-child{
+	border-bottom-style: solid;
+	border-width:1px;
+}
+
 nav ul li {
   display: block;
   width: 100%;
@@ -443,7 +455,10 @@ nav ul ul ul a {   display: block;
   text-decoration: none;
   border: none;
   position: relative;
-  padding: 0 20px; }
+  padding: 0 20px; 
+  border-top-style: solid;
+  border-top-width:1px;
+}
 
 nav a:hover { background-color: #000000; }
 nav ul ul ul a { background-color: #FFcb59; 
@@ -451,7 +466,11 @@ nav ul ul ul a { background-color: #FFcb59;
 nav ul ul ul a:hover { color: white; }
 
 nav ul li ul li .toggle,
- nav ul ul a { background-color: #FFB612; }
+ nav ul ul a { 
+ background-color: #FFB612;
+ border-top-style: solid;
+ border-width:1px;
+}
 
 nav ul ul {
   float: none;
