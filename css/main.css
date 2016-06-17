@@ -357,7 +357,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 	background: white; /*background-color: white; /*#254441;*/
 	float: right;
 	position: fixed;
-	height: 40px;
+	height: 30px;
 	width: 100%;
 }
 .menuSpaceFiller{
@@ -366,9 +366,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 .menuBackground{
 	position: relative;
 }
-.center + .toggle{
-	height:40px;
-}
+
 /*
 [id^=drop]:checked + li > a:after { content: ' +'; }
 li > a:after { content: ' -'; } 
