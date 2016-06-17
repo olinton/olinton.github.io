@@ -418,18 +418,18 @@ nav ul a{
   font-size: 20px;
   line-height: 30px;
   text-decoration: none;
-  border: none;
+ /* border: none;*/
   position: relative;
   padding: 0 10px;
-  border-top-style: none;
+ /* border-top-style: none;
   border-bottom-style: solid;
-  border-width:1px;
+  border-width:1px;*/
 }
-nav ul a:last-child{
+/*nav ul a:last-child{
 	border-bottom-style: solid;
 	border-top-style: solid;
 	border-width:1px;
-}
+}*/
 
 nav ul li {
   display: block;
@@ -445,9 +445,9 @@ nav ul ul .toggle,
   font-size: 20px;
   line-height: 30px;
   text-decoration: none;  
-  border-bottom-style: solid;
+ /* border-bottom-style: solid;
   border-top-style: none;
-  border-width: 1px;
+  border-width: 1px;*/
   position: relative;
   padding: 0 15px; }
 
@@ -457,11 +457,11 @@ nav ul ul ul a {   display: block;
   font-size: 20px;
   line-height: 30px;
   text-decoration: none;
-  border: none;
+/*  border: none;*/
   position: relative;
   padding: 0 20px; 
-  border-bottom-style: solid;
-  border-bottom-width:1px;
+/*  border-bottom-style: solid;
+  border-bottom-width:1px;*/
 }
 
 nav a:hover { background-color: #000000; }
@@ -472,9 +472,9 @@ nav ul ul ul a:hover { color: white; }
 nav ul li ul li .toggle,
  nav ul ul a { 
  background-color: #FFB612;
- border-bottom-style: solid;
+/* border-bottom-style: solid;
   border-top-style: none;
- border-width:1px;
+ border-width:1px;*/
 }
 
 nav ul ul {
