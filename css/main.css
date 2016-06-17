@@ -366,11 +366,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 .menuBackground{
 	position: relative;
 }
-.menu{
-	border-bottom-style: solid;
-    border-top-style: solid;
-    border-width: 1px;
-}
+
 /*
 [id^=drop]:checked + li > a:after { content: ' +'; }
 li > a:after { content: ' -'; } 
@@ -403,6 +399,8 @@ nav {
   text-decoration: none;
 /*  border: none;*/
   position: relative;
+  border-bottom-style: solid;
+    border-width: 1px;
 }
 
 .toggle:hover { 
@@ -428,7 +426,9 @@ nav ul a{
   padding: 0 10px;
  /* border-top-style: none;
   border-bottom-style: solid;
-  border-width:1px;*/
+  border-width:1px;*/    
+	border-bottom-style: solid;
+    border-width: 1px;
 }
 /*nav ul a:last-child{
 	border-bottom-style: solid;
