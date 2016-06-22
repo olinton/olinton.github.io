@@ -25,6 +25,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	padding-left: 162px;
 	font-size: 135%;
 	font-weight: 800;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #personTitles{
 	padding-left: 165px;
@@ -519,6 +520,7 @@ nav ul ul ul li { position: static;
 	padding-left: 137px;
 	font-size: 135%;
 	font-weight: 800;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #personTitles{
 	padding-left: 140px;
