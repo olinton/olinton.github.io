@@ -9,12 +9,16 @@
             bar.style.position='fixed';
             bar.style.top=0;
             bar2.style.position='relative';
+			var toTop = document.getElementById('return-to-top');
+			toTop.style.display='block';
         }else{
             bar2.style.position='fixed';
             bar2.style.top=0;
             bar.style.position='relative';
+			var toTop = document.getElementById('return-to-top');
+			toTop.style.display='none';
         }
-
+		
     };
 
 
