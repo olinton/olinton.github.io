@@ -41,7 +41,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
     right: 20px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
-	background-image: url("/images/chevron-arrow-sign-up-button.jpg")
+	background-image: url("/images/chevron-arrow-sign-up-button.jpg");
     width: 50px;
     height: 50px;
     display: block;
