@@ -5,12 +5,12 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .padding {	padding: 20px; }
 .bodyContainer { min-height: 500px; }
  
- *{
-     -webkit-transition: all 0.1s linear;
-    -moz-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    transition: all 0.1s ease;
+#sticker{
+     -webkit-transition: all 0.9s linear;
+    -moz-transition: all 0.9s ease;
+    -ms-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
  }
 #peopleContainer{
 	padding-bottom: 20px; 
