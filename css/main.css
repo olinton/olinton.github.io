@@ -5,7 +5,7 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .padding {	padding: 20px; }
 .bodyContainer { min-height: 500px; }
  
-#sticker{
+#sticker *, #antiSticker{
      -webkit-transition: all 0.9s linear;
     -moz-transition: all 0.9s ease;
     -ms-transition: all 0.9s ease;
