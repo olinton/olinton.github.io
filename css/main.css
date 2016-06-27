@@ -418,7 +418,7 @@ nav ul ul li:last-child a, nav ul ul ul li:last-child a{
 li > a:after { content: ' -'; } 
 li > a:only-child:after { content: ''; }
 */
-[id^=drop]:checked a:after { content: ' +'; }
+[id^=drop]:checked a::after { content: ' +'; }
 #logo {
   display: block;
   padding: 0;
