@@ -29,7 +29,11 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 	width: 160px;
 	float: left;
 }
+#personBio{
+	padding-left:10px;
+}
 #personName{
+	padding-top:5px;
 	padding-left: 162px;
 	font-size: 135%;
 	font-weight: 800;
