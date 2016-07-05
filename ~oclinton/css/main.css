@@ -5,6 +5,13 @@ body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 14px; l
 .padding {	padding: 20px; }
 .bodyContainer { min-height: 500px; }
  
+ 
+[id^=drop]::checked + li > a::after { content: ' +'; }/*
+li > a:after { content: ' -'; } 
+li > a:only-child:after { content: ''; }
+*/
+[id^=drop]::checked a::after { content: ' +'; }
+
 #sticker ul *{
      -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s ease;
