@@ -11,10 +11,12 @@ li > a:after { content: ' -'; }
 li > a:only-child:after { content: ''; }
 */
 [id^=drop]::checked a::after { content: ' +'; }
+
 #groupLogo{
 	background-image: url("/~oclinton/images/UniversityOfWaterloo_logo_horiz_rgb.png");
 	height: 100px;
 	width: 249px;
+	background-size: 249px 100px;
 }
 #sticker ul *{
      -webkit-transition: all 0.2s linear;
