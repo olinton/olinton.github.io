@@ -1,5 +1,5 @@
 
-    var startProductBarPos=72;
+    var startProductBarPos=100;
     window.onscroll=function(){
         var bar = document.getElementById('sticker');
         var bar2 = document.getElementById('antiSticker');

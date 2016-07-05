@@ -11,7 +11,11 @@ li > a:after { content: ' -'; }
 li > a:only-child:after { content: ''; }
 */
 [id^=drop]::checked a::after { content: ' +'; }
-
+#groupLogo{
+	background-image: url("/images/UniversityOfWaterloo_logo_horiz_rgb.png");
+	height: 100px;
+	width: 249px;
+}
 #sticker ul *{
      -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s ease;
